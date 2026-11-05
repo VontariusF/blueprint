@@ -1,0 +1,13 @@
+{
+  "priorities": [
+    "Adaptive research",
+    "Complete vision and bounded next delivery",
+    "Explicit dependencies and observable QA"
+  ],
+  "style": "Clear, restrained, readable; adapt to project identity",
+  "motion": "Purposeful and subtle",
+  "output": "One entry point with linked supporting artifacts as useful",
+  "name": "default",
+  "audio": "Optional, preference-aware",
+  "confirmation": "Actual mockups and meaningful journey/states"
+}

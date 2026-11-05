@@ -1,0 +1,13 @@
+{
+  "priorities": [
+    "User need and product assumptions",
+    "Initial scope and operating costs",
+    "Evolution path and operating responsibilities"
+  ],
+  "style": "Coherent product identity with readable core workflows; establish through concepts",
+  "motion": "Feedback and continuity",
+  "output": "Initial product specification, explicit later scope and operational requirements",
+  "name": "startup",
+  "audio": "Optional, preference-aware",
+  "confirmation": "Actual mockups and meaningful journey/states"
+}

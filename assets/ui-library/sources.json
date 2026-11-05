@@ -1,0 +1,77 @@
+{
+  "captured_on": "2026-11-05",
+  "sources": [
+    {
+      "id": "amicro",
+      "name": "Amicro",
+      "creator": "Syed Subhan Uddin",
+      "url": "https://amicro.dev/",
+      "repository": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+      "license_note": "MIT",
+      "role": "React interactions and transitions"
+    },
+    {
+      "id": "beautifului",
+      "name": "Beautiful UI",
+      "creator": "Shane Levine / Turbo Product",
+      "url": "https://www.beautifului.dev/",
+      "repository": null,
+      "license_note": "MIT published on site",
+      "role": "Functional AI interfaces"
+    },
+    {
+      "id": "vault",
+      "name": "Design.how Vault",
+      "creator": "Arlan Marat",
+      "url": "https://design.how/vault",
+      "repository": "https://github.com/arla6ka/design.how",
+      "license_note": "MIT",
+      "role": "Expressive visual treatments"
+    },
+    {
+      "id": "gooey",
+      "name": "Gooey",
+      "creator": "Jakub Antalik",
+      "url": "https://libraries.dev/gooey",
+      "repository": "https://github.com/Jakubantalik/Libraries.dev",
+      "license_note": "MIT library; paid exports separate",
+      "role": "Liquid interaction effects"
+    },
+    {
+      "id": "orbs",
+      "name": "Thinking Orbs",
+      "creator": "Jakub Antalik; Alexandr Brinza credited for Orbs",
+      "url": "https://libraries.dev/orbs",
+      "repository": "https://github.com/Jakubantalik/Libraries.dev",
+      "license_note": "MIT library; paid exports separate",
+      "role": "Activity indicators"
+    },
+    {
+      "id": "dither",
+      "name": "Dither Kit",
+      "creator": "Boring Software Inc. (publisher)",
+      "url": "https://tripwire.sh/dither-kit",
+      "repository": "https://github.com/Boring-Software-Inc/dither-kit",
+      "license_note": "Unresolved in captured source; reference use",
+      "role": "Dithered charts and visual components"
+    },
+    {
+      "id": "kinetics",
+      "name": "Kinetics",
+      "creator": "Csaba Kissi",
+      "url": "https://kinetics.colorion.co/",
+      "repository": "https://github.com/ckissi/kinetics",
+      "license_note": "Unresolved in captured source; reference use",
+      "role": "CSS and React motion references"
+    },
+    {
+      "id": "cuelume",
+      "name": "Cuelume",
+      "creator": "Daniel Belyi",
+      "url": "https://cuelume-site.pages.dev/",
+      "repository": "https://github.com/danielwh2/cuelume",
+      "license_note": "MIT",
+      "role": "Optional synthesized interaction sounds"
+    }
+  ]
+}

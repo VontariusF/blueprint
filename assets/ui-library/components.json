@@ -1,0 +1,4449 @@
+{
+  "captured_on": "2026-11-05",
+  "scope": "All entries in retrieved public catalogs/registries, not a runtime verification of every component. Variants are nested under their library entry.",
+  "counts": {
+    "amicro": 176,
+    "dither": 9,
+    "kinetics": 162,
+    "vault": 74,
+    "beautifului": 21,
+    "gooey": 1,
+    "orbs": 1,
+    "cuelume": 14
+  },
+  "components": [
+    {
+      "source": "amicro",
+      "name": "Fade In",
+      "url": "https://amicro.dev/",
+      "component_id": "fade-in",
+      "description": "Basic fade entrance animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fade Up",
+      "url": "https://amicro.dev/",
+      "component_id": "fade-up",
+      "description": "Fade with upward translation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fade Down",
+      "url": "https://amicro.dev/",
+      "component_id": "fade-down",
+      "description": "Fade with downward translation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Slide Left",
+      "url": "https://amicro.dev/",
+      "component_id": "slide-left",
+      "description": "Slide in from right to left.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Slide Right",
+      "url": "https://amicro.dev/",
+      "component_id": "slide-right",
+      "description": "Slide in from left to right.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Scale In",
+      "url": "https://amicro.dev/",
+      "component_id": "scale-in",
+      "description": "Scale transition from small to actual size.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Zoom In",
+      "url": "https://amicro.dev/",
+      "component_id": "zoom-in",
+      "description": "Scale transition combined with deep blur/depth effect.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Reveal",
+      "url": "https://amicro.dev/",
+      "component_id": "text-reveal",
+      "description": "Line-by-line slide/reveal text effect.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Word Reveal",
+      "url": "https://amicro.dev/",
+      "component_id": "word-reveal",
+      "description": "Word-by-word fade and scale stagger reveal effect.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Blur Text",
+      "url": "https://amicro.dev/",
+      "component_id": "blur-text",
+      "description": "Blur transition for text container/headings.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Character Stagger",
+      "url": "https://amicro.dev/",
+      "component_id": "character-stagger",
+      "description": "Character-by-character radial or linear stagger animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Card Hover",
+      "url": "https://amicro.dev/",
+      "component_id": "card-hover",
+      "description": "Dynamic floating card effect on hover.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Tilt Card",
+      "url": "https://amicro.dev/",
+      "component_id": "tilt-card",
+      "description": "3D parallax tilt effect following mouse cursor.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Magnetic Button",
+      "url": "https://amicro.dev/",
+      "component_id": "magnetic-button",
+      "description": "A button that pulls slightly towards the user's cursor.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Glow Button",
+      "url": "https://amicro.dev/",
+      "component_id": "glow-button",
+      "description": "Glow/border animation following the cursor.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Cursor Trail",
+      "url": "https://amicro.dev/",
+      "component_id": "cursor-trail",
+      "description": "Custom cursor with particle/dots trail.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spotlight",
+      "url": "https://amicro.dev/",
+      "component_id": "spotlight",
+      "description": "Masked spotlight highlighting container content on hover.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Mouse Follow",
+      "url": "https://amicro.dev/",
+      "component_id": "mouse-follow",
+      "description": "Smooth spring physics element trailing mouse cursor.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Scroll Reveal",
+      "url": "https://amicro.dev/",
+      "component_id": "scroll-reveal",
+      "description": "Reveal content block as it scrolls into viewport.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Progress Indicator",
+      "url": "https://amicro.dev/",
+      "component_id": "progress-indicator",
+      "description": "Horizontal page scroll progress indicator bar.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Sticky Reveal",
+      "url": "https://amicro.dev/",
+      "component_id": "sticky-reveal",
+      "description": "Apple-style scroll-linked side sticky content reveal.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Skeleton",
+      "url": "https://amicro.dev/",
+      "component_id": "skeleton",
+      "description": "Loading skeleton with smooth shimmer sweep.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pulse",
+      "url": "https://amicro.dev/",
+      "component_id": "pulse",
+      "description": "Pulsing scaling animation for loading elements.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morph Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "morph-loader",
+      "description": "Gooey/morphing shape loader.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Use Scroll Progress",
+      "url": "https://amicro.dev/",
+      "component_id": "use-scroll-progress",
+      "description": "Calculates current page/container scroll progress percentage.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Use Mouse Position",
+      "url": "https://amicro.dev/",
+      "component_id": "use-mouse-position",
+      "description": "Tracks target element mouse coordinate offsets.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Use Stagger",
+      "url": "https://amicro.dev/",
+      "component_id": "use-stagger",
+      "description": "Calculates custom delays for child stagger layouts.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Use Reduced Motion",
+      "url": "https://amicro.dev/",
+      "component_id": "use-reduced-motion",
+      "description": "Detects client system reduced motion media query standard.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Use Web Haptics",
+      "url": "https://amicro.dev/",
+      "component_id": "use-web-haptics",
+      "description": "Provides responsive device haptic feedback and vibrations for web interfaces.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Presets",
+      "url": "https://amicro.dev/",
+      "component_id": "presets",
+      "description": "A set of spring configuration presets for Motion.",
+      "dependencies": [],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Utils",
+      "url": "https://amicro.dev/",
+      "component_id": "utils",
+      "description": "Motion utility functions (cn helper, mapRange).",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Accordion Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "accordion-loader",
+      "description": "Accordion Loader loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "App Icon Load",
+      "url": "https://amicro.dev/",
+      "component_id": "app-icon-load",
+      "description": "App Icon Load loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Breathe",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-breathe",
+      "description": "Apple Breathe loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Equalizer",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-equalizer",
+      "description": "Apple Equalizer loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Icon Morph",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-icon-morph",
+      "description": "Apple Icon Morph loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Pulse Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-pulse-dots",
+      "description": "Apple Pulse Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Scale Pulse",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-scale-pulse",
+      "description": "Apple Scale Pulse loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Sound Wave",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-sound-wave",
+      "description": "Apple Sound Wave loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Text Reveal",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-text-reveal",
+      "description": "Apple Text Reveal loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Apple Unlock",
+      "url": "https://amicro.dev/",
+      "component_id": "apple-unlock",
+      "description": "Apple Unlock loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Arc Tracer",
+      "url": "https://amicro.dev/",
+      "component_id": "arc-tracer",
+      "description": "Arc Tracer loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bar Cascade",
+      "url": "https://amicro.dev/",
+      "component_id": "bar-cascade",
+      "description": "Bar Cascade loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bar Sweep",
+      "url": "https://amicro.dev/",
+      "component_id": "bar-sweep",
+      "description": "Bar Sweep loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bobbing Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "bobbing-dots",
+      "description": "Bobbing Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bounce Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "bounce-dots",
+      "description": "Bounce Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bouncing Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "bouncing-bars",
+      "description": "Bouncing Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bouncing Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "bouncing-dots",
+      "description": "Bouncing Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bouncing Lines",
+      "url": "https://amicro.dev/",
+      "component_id": "bouncing-lines",
+      "description": "Bouncing Lines loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Bouncing Square",
+      "url": "https://amicro.dev/",
+      "component_id": "bouncing-square",
+      "description": "Bouncing Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Breathe Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "breathe-ring",
+      "description": "Breathe Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Breathing Glow",
+      "url": "https://amicro.dev/",
+      "component_id": "breathing-glow",
+      "description": "Breathing Glow loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Breathing Square",
+      "url": "https://amicro.dev/",
+      "component_id": "breathing-square",
+      "description": "Breathing Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Circular Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "circular-bars",
+      "description": "Circular Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Classic Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "classic-spinner",
+      "description": "Classic Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Clock Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "clock-spinner",
+      "description": "Clock Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Comet Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "comet-spinner",
+      "description": "Comet Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Concentric Pulse",
+      "url": "https://amicro.dev/",
+      "component_id": "concentric-pulse",
+      "description": "Concentric Pulse loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Concentric Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "concentric-ring",
+      "description": "Concentric Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Concentric Squares",
+      "url": "https://amicro.dev/",
+      "component_id": "concentric-squares",
+      "description": "Concentric Squares loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Conveyor Loop",
+      "url": "https://amicro.dev/",
+      "component_id": "conveyor-loop",
+      "description": "Conveyor Loop loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Cross Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "cross-spinner",
+      "description": "Cross Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Cube Flip Spring",
+      "url": "https://amicro.dev/",
+      "component_id": "cube-flip-spring",
+      "description": "Cube Flip Spring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dash Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "dash-ring",
+      "description": "Dash Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dashed Spiral",
+      "url": "https://amicro.dev/",
+      "component_id": "dashed-spiral",
+      "description": "Dashed Spiral loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Diamond Grid",
+      "url": "https://amicro.dev/",
+      "component_id": "diamond-grid",
+      "description": "Diamond Grid loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Diamond Rotate Spring",
+      "url": "https://amicro.dev/",
+      "component_id": "diamond-rotate-spring",
+      "description": "Diamond Rotate Spring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dot Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "dot-spinner",
+      "description": "Dot Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dots Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "dots-ring",
+      "description": "Dots Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Double Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "double-ring",
+      "description": "Double Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Drop Dot",
+      "url": "https://amicro.dev/",
+      "component_id": "drop-dot",
+      "description": "Drop Dot loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dual Arc",
+      "url": "https://amicro.dev/",
+      "component_id": "dual-arc",
+      "description": "Dual Arc loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dynamic Island",
+      "url": "https://amicro.dev/",
+      "component_id": "dynamic-island",
+      "description": "Dynamic Island loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Elastic Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "elastic-bars",
+      "description": "Elastic Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Elastic Square",
+      "url": "https://amicro.dev/",
+      "component_id": "elastic-square",
+      "description": "Elastic Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Expanding Cross",
+      "url": "https://amicro.dev/",
+      "component_id": "expanding-cross",
+      "description": "Expanding Cross loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Face Id Scan",
+      "url": "https://amicro.dev/",
+      "component_id": "face-id-scan",
+      "description": "Face Id Scan loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fade Arc",
+      "url": "https://amicro.dev/",
+      "component_id": "fade-arc",
+      "description": "Fade Arc loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fade Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "fade-dots",
+      "description": "Fade Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Flip Square",
+      "url": "https://amicro.dev/",
+      "component_id": "flip-square",
+      "description": "Flip Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Floating Diamonds",
+      "url": "https://amicro.dev/",
+      "component_id": "floating-diamonds",
+      "description": "Floating Diamonds loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fluid Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "fluid-bars",
+      "description": "Fluid Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fluid Diamond",
+      "url": "https://amicro.dev/",
+      "component_id": "fluid-diamond",
+      "description": "Fluid Diamond loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fluid Dot Orbit",
+      "url": "https://amicro.dev/",
+      "component_id": "fluid-dot-orbit",
+      "description": "Fluid Dot Orbit loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Fluid Skeleton",
+      "url": "https://amicro.dev/",
+      "component_id": "fluid-skeleton",
+      "description": "Fluid Skeleton loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Gears",
+      "url": "https://amicro.dev/",
+      "component_id": "gears",
+      "description": "Gears loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Glassmorphic Card",
+      "url": "https://amicro.dev/",
+      "component_id": "glassmorphic-card",
+      "description": "Glassmorphic Card loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Gradient Arc",
+      "url": "https://amicro.dev/",
+      "component_id": "gradient-arc",
+      "description": "Gradient Arc loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Grid Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "grid-dots",
+      "description": "Grid Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Haptic Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "haptic-ring",
+      "description": "Haptic Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Heartbeat",
+      "url": "https://amicro.dev/",
+      "component_id": "heartbeat",
+      "description": "Heartbeat loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Hexagon Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "hexagon-spinner",
+      "description": "Hexagon Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Hourglass",
+      "url": "https://amicro.dev/",
+      "component_id": "hourglass",
+      "description": "Hourglass loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Infinity Path",
+      "url": "https://amicro.dev/",
+      "component_id": "infinity-path",
+      "description": "Infinity Path loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Intersecting Rings",
+      "url": "https://amicro.dev/",
+      "component_id": "intersecting-rings",
+      "description": "Intersecting Rings loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Ios Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "ios-spinner",
+      "description": "Ios Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Line Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "line-spinner",
+      "description": "Line Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Liquid Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "liquid-dots",
+      "description": "Liquid Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Loader Morphing",
+      "url": "https://amicro.dev/",
+      "component_id": "loader-morphing",
+      "description": "Loader Morphing loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Mac Terminal",
+      "url": "https://amicro.dev/",
+      "component_id": "mac-terminal",
+      "description": "Mac Terminal loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Magnetic Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "magnetic-dots",
+      "description": "Magnetic Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Minimal Triangle",
+      "url": "https://amicro.dev/",
+      "component_id": "minimal-triangle",
+      "description": "Minimal Triangle loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morph Dot Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "morph-dot-ring",
+      "description": "Morph Dot Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morphing Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "morphing-bars",
+      "description": "Morphing Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morphing Infinity",
+      "url": "https://amicro.dev/",
+      "component_id": "morphing-infinity",
+      "description": "Morphing Infinity loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morphing Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "morphing-ring",
+      "description": "Morphing Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morphing Shape",
+      "url": "https://amicro.dev/",
+      "component_id": "morphing-shape",
+      "description": "Morphing Shape loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Newtons Cradle",
+      "url": "https://amicro.dev/",
+      "component_id": "newtons-cradle",
+      "description": "Newtons Cradle loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Offset Rings",
+      "url": "https://amicro.dev/",
+      "component_id": "offset-rings",
+      "description": "Offset Rings loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Orbiting Circles",
+      "url": "https://amicro.dev/",
+      "component_id": "orbiting-circles",
+      "description": "Orbiting Circles loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Orbiting Dot",
+      "url": "https://amicro.dev/",
+      "component_id": "orbiting-dot",
+      "description": "Orbiting Dot loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Origami Shape",
+      "url": "https://amicro.dev/",
+      "component_id": "origami-shape",
+      "description": "Origami Shape loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pendulum",
+      "url": "https://amicro.dev/",
+      "component_id": "pendulum",
+      "description": "Pendulum loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pulsating Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "pulsating-dots",
+      "description": "Pulsating Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pulse Dot",
+      "url": "https://amicro.dev/",
+      "component_id": "pulse-dot",
+      "description": "Pulse Dot loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pulse Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "pulse-dots",
+      "description": "Pulse Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pulse Square",
+      "url": "https://amicro.dev/",
+      "component_id": "pulse-square",
+      "description": "Pulse Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Pumping Heart",
+      "url": "https://amicro.dev/",
+      "component_id": "pumping-heart",
+      "description": "Pumping Heart loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Radar Sweep",
+      "url": "https://amicro.dev/",
+      "component_id": "radar-sweep",
+      "description": "Radar Sweep loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Ring Sweep",
+      "url": "https://amicro.dev/",
+      "component_id": "ring-sweep",
+      "description": "Ring Sweep loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Ripple Effect",
+      "url": "https://amicro.dev/",
+      "component_id": "ripple-effect",
+      "description": "Ripple Effect loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Rotating Cross",
+      "url": "https://amicro.dev/",
+      "component_id": "rotating-cross",
+      "description": "Rotating Cross loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Rotating Triangle",
+      "url": "https://amicro.dev/",
+      "component_id": "rotating-triangle",
+      "description": "Rotating Triangle loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Shape Shift Grid",
+      "url": "https://amicro.dev/",
+      "component_id": "shape-shift-grid",
+      "description": "Shape Shift Grid loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Shimmer Line",
+      "url": "https://amicro.dev/",
+      "component_id": "shimmer-line",
+      "description": "Shimmer Line loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Siri Wave",
+      "url": "https://amicro.dev/",
+      "component_id": "siri-wave",
+      "description": "Siri Wave loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Skeleton Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "skeleton-loader",
+      "description": "Skeleton Loader loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Sliding Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "sliding-bars",
+      "description": "Sliding Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Smooth Dot Shift",
+      "url": "https://amicro.dev/",
+      "component_id": "smooth-dot-shift",
+      "description": "Smooth Dot Shift loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Smooth Ring",
+      "url": "https://amicro.dev/",
+      "component_id": "smooth-ring",
+      "description": "Smooth Ring loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Smooth Rounded Square",
+      "url": "https://amicro.dev/",
+      "component_id": "smooth-rounded-square",
+      "description": "Smooth Rounded Square loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spinning Squares",
+      "url": "https://amicro.dev/",
+      "component_id": "spinning-squares",
+      "description": "Spinning Squares loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spiral Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "spiral-spinner",
+      "description": "Spiral Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spring Bars",
+      "url": "https://amicro.dev/",
+      "component_id": "spring-bars",
+      "description": "Spring Bars loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spring Dot Matrix",
+      "url": "https://amicro.dev/",
+      "component_id": "spring-dot-matrix",
+      "description": "Spring Dot Matrix loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spring Hexagon",
+      "url": "https://amicro.dev/",
+      "component_id": "spring-hexagon",
+      "description": "Spring Hexagon loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spring Ring Expand",
+      "url": "https://amicro.dev/",
+      "component_id": "spring-ring-expand",
+      "description": "Spring Ring Expand loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Spring Text Pop",
+      "url": "https://amicro.dev/",
+      "component_id": "spring-text-pop",
+      "description": "Spring Text Pop loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Square Accordion",
+      "url": "https://amicro.dev/",
+      "component_id": "square-accordion",
+      "description": "Square Accordion loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Square Grid",
+      "url": "https://amicro.dev/",
+      "component_id": "square-grid",
+      "description": "Square Grid loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Square Snake",
+      "url": "https://amicro.dev/",
+      "component_id": "square-snake",
+      "description": "Square Snake loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Square Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "square-spinner",
+      "description": "Square Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Stacked Bar Pulse",
+      "url": "https://amicro.dev/",
+      "component_id": "stacked-bar-pulse",
+      "description": "Stacked Bar Pulse loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Swapping Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "swapping-dots",
+      "description": "Swapping Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Swirling Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "swirling-spinner",
+      "description": "Swirling Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Symmetric Wave",
+      "url": "https://amicro.dev/",
+      "component_id": "symmetric-wave",
+      "description": "Symmetric Wave loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Terminal Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "terminal-loader",
+      "description": "Terminal Loader loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Blink",
+      "url": "https://amicro.dev/",
+      "component_id": "text-blink",
+      "description": "Text Blink loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "text-dots",
+      "description": "Text Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Morph",
+      "url": "https://amicro.dev/",
+      "component_id": "text-morph",
+      "description": "Text Morph loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Shimmer Wave",
+      "url": "https://amicro.dev/",
+      "component_id": "text-shimmer-wave",
+      "description": "Text Shimmer Wave loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Text Shimmer",
+      "url": "https://amicro.dev/",
+      "component_id": "text-shimmer",
+      "description": "Text Shimmer loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Trailing Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "trailing-dots",
+      "description": "Trailing Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Triple Dot Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "triple-dot-spinner",
+      "description": "Triple Dot Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Twin Orbit",
+      "url": "https://amicro.dev/",
+      "component_id": "twin-orbit",
+      "description": "Twin Orbit loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Typing Indicator",
+      "url": "https://amicro.dev/",
+      "component_id": "typing-indicator",
+      "description": "Typing Indicator loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Typing",
+      "url": "https://amicro.dev/",
+      "component_id": "typing",
+      "description": "Typing loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Wandering Cube",
+      "url": "https://amicro.dev/",
+      "component_id": "wandering-cube",
+      "description": "Wandering Cube loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Watch Spinner",
+      "url": "https://amicro.dev/",
+      "component_id": "watch-spinner",
+      "description": "Watch Spinner loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Wave Dots",
+      "url": "https://amicro.dev/",
+      "component_id": "wave-dots",
+      "description": "Wave Dots loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Wave Physics Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "wave-physics-loader",
+      "description": "Wave Physics Loader loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Waveform Loader",
+      "url": "https://amicro.dev/",
+      "component_id": "waveform-loader",
+      "description": "Waveform Loader loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Zig Zag Pulse",
+      "url": "https://amicro.dev/",
+      "component_id": "zig-zag-pulse",
+      "description": "Zig Zag Pulse loading animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Page Transition",
+      "url": "https://amicro.dev/",
+      "component_id": "page-transition",
+      "description": "Dynamic fullscreen page transition animation.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Interactive 3D Carousel",
+      "url": "https://amicro.dev/",
+      "component_id": "card-carousel",
+      "description": "An interactive arc-based 3D motion carousel featuring smooth dot indicators and dynamic prev/next controls.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "CoverFlow Carousel",
+      "url": "https://amicro.dev/",
+      "component_id": "card-cover-flow",
+      "description": "A premium 3D CoverFlow carousel displaying cards along a perspective path.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dither Donut Chart",
+      "url": "https://amicro.dev/",
+      "component_id": "dither-donut-chart",
+      "description": "Interactive pixelated dither donut chart with real-time spring physics.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Dither Growth Chart",
+      "url": "https://amicro.dev/",
+      "component_id": "dither-growth-chart",
+      "description": "60fps canvas growth line chart with pixel dither fill matrix.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Uptime Dither Bar Chart",
+      "url": "https://amicro.dev/",
+      "component_id": "uptime-chart",
+      "description": "Continuous uptime bar chart with dithered matrix animation.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Activity Dither Heatmap",
+      "url": "https://amicro.dev/",
+      "component_id": "activity-heatmap",
+      "description": "GitHub-style activity heatmap with interactive dither dots.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "AI Prompt Input Studio",
+      "url": "https://amicro.dev/",
+      "component_id": "ai-prompt-input",
+      "description": "Dynamic auto-expanding AI textarea with model switcher, live voice dictation wave pulse, web search & deep thinking toggles, and token counter.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "AI Reasoning Trace Accordion",
+      "url": "https://amicro.dev/",
+      "component_id": "ai-reasoning-trace",
+      "description": "Collapsible chain-of-thought reasoning trace with active thought timer, pulsating brain wave, and sequential step status nodes.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "AI Response Stream & Code Block",
+      "url": "https://amicro.dev/",
+      "component_id": "ai-response-stream",
+      "description": "Terminal-like AI code stream card featuring branch revision navigation, instant copy with tactile haptics, and response rating morphs.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "AI Prompt Suggestion Chips",
+      "url": "https://amicro.dev/",
+      "component_id": "ai-prompt-chips",
+      "description": "Categorized quick-prompt suggestion chips with spring physics bounce and one-tap populating.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "AI Floating Action Pill",
+      "url": "https://amicro.dev/",
+      "component_id": "ai-floating-toolbar",
+      "description": "Glassmorphic floating quick-action pill dock for instant generative prompts and actions.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "amicro",
+      "name": "Morphing Shapes Studio",
+      "url": "https://amicro.dev/",
+      "component_id": "morphing-shapes-studio",
+      "description": "Interactive shape morphing laboratory with studio controls, continuous auto-looping, and spring tension adjustments.",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "license": "MIT",
+      "creator": "Syed Subhan Uddin"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Kit \u2014 Core",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "core",
+      "description": "Shared engine for Dither Kit: contexts, d3 scales, the ordered-dither canvas painter, the canvas-agnostic chart shells, and the legend/tooltip/grid/axes/dot chrome. Installed automatically by every chart.",
+      "dependencies": [
+        "motion",
+        "d3-scale",
+        "d3-shape",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Area & Line Chart",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "area-chart",
+      "description": "Composable dithered area + line charts \u2014 children-as-config API with the ordered-dither fill, winking sparkles, a gliding scrub tooltip, selection, and colour bloom. Includes Sparkline. Inspired by Evil Charts (evilcharts.com).",
+      "dependencies": [],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Bar Chart",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "bar-chart",
+      "description": "Composable dithered bar chart \u2014 grouped or stacked, with a staggered grow-in wave, the ordered-dither fill, scrub tooltip, selection, and colour bloom. Inspired by Evil Charts (evilcharts.com).",
+      "dependencies": [],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Pie / Donut Chart",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "pie-chart",
+      "description": "Composable dithered pie / donut chart \u2014 per-pixel radial dither, clockwise sweep-in, slice hover-pop, and colour bloom. Inspired by Evil Charts (evilcharts.com).",
+      "dependencies": [],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Radar Chart",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "radar-chart",
+      "description": "Composable dithered radar chart \u2014 polygon-membership dither, scale-in entrance, vertex markers, the dither frame, and colour bloom. Inspired by Evil Charts (evilcharts.com).",
+      "dependencies": [],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Avatar",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "avatar",
+      "description": "Generative mirrored pixel avatars in the ordered-dither texture \u2014 ~1.5 trillion combinations from a name, deterministic, with a hue override and a Bayer-ordered materialize entrance. Standalone: installs without the chart engine.",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Button",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "button",
+      "description": "Dithered buttons \u2014 a native <button> filled with the charts' ordered-dither texture (gradient / dotted / hatched / solid), easing denser and brighter on hover and press, with optional bloom. Standalone: installs without the chart engine.",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Gradient",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "gradient",
+      "description": "Dithered gradient washes for backgrounds \u2014 footer glows, section fades, card backdrops. Dissolves to transparent or dither-blends two colours, any direction, with optional bloom. Standalone: installs without the chart engine.",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "dither",
+      "name": "Dither Kit \u2014 Everything",
+      "url": "https://tripwire.sh/dither-kit",
+      "component_id": "dither-kit",
+      "description": "All of Dither Kit: area, line, bar, pie, and radar dithered charts on one tiny canvas engine, plus generative dithered avatars, buttons, and gradient washes. Inspired by Evil Charts (evilcharts.com).",
+      "dependencies": [],
+      "license": "Unresolved: no top-level LICENSE in retrieved archive",
+      "creator": "Boring Software Inc. (publisher)"
+    },
+    {
+      "source": "kinetics",
+      "name": "Card Resize",
+      "url": "https://kinetics.colorion.co/effects/card-resize/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Magnetic Button",
+      "url": "https://kinetics.colorion.co/effects/magnetic-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Number Counter",
+      "url": "https://kinetics.colorion.co/effects/number-counter/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Toast Overshoot",
+      "url": "https://kinetics.colorion.co/effects/toast-overshoot/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Tab Pill Glide",
+      "url": "https://kinetics.colorion.co/effects/animated-tabs/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Accordion Spring",
+      "url": "https://kinetics.colorion.co/effects/accordion-spring/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Drag to Dismiss",
+      "url": "https://kinetics.colorion.co/effects/drag-to-dismiss/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Ripple Feedback",
+      "url": "https://kinetics.colorion.co/effects/ripple-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Hold to Confirm",
+      "url": "https://kinetics.colorion.co/effects/hold-to-confirm/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Rubber-band Slider",
+      "url": "https://kinetics.colorion.co/effects/rubber-band-slider/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Like Burst",
+      "url": "https://kinetics.colorion.co/effects/like-burst/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Cursor Trail",
+      "url": "https://kinetics.colorion.co/effects/cursor-trail/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Push Button",
+      "url": "https://kinetics.colorion.co/effects/push-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Star Rating",
+      "url": "https://kinetics.colorion.co/effects/star-rating/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Floating Label",
+      "url": "https://kinetics.colorion.co/effects/floating-label/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Copy Button",
+      "url": "https://kinetics.colorion.co/effects/copy-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Quantity Stepper",
+      "url": "https://kinetics.colorion.co/effects/quantity-stepper/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Choice Chips",
+      "url": "https://kinetics.colorion.co/effects/choice-chips/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "PIN Input",
+      "url": "https://kinetics.colorion.co/effects/pin-input/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Password Meter",
+      "url": "https://kinetics.colorion.co/effects/password-meter/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Pointer Tooltip",
+      "url": "https://kinetics.colorion.co/effects/pointer-tooltip/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Swipe to Reveal",
+      "url": "https://kinetics.colorion.co/effects/swipe-to-reveal/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Rotary Knob",
+      "url": "https://kinetics.colorion.co/effects/rotary-knob/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Reorderable List",
+      "url": "https://kinetics.colorion.co/effects/reorderable-list/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Expanding Search",
+      "url": "https://kinetics.colorion.co/effects/expanding-search/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Squish Button",
+      "url": "https://kinetics.colorion.co/effects/squish-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Toggle Pills",
+      "url": "https://kinetics.colorion.co/effects/toggle-pills/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Value Scrubber",
+      "url": "https://kinetics.colorion.co/effects/value-scrubber/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Speed-Dial FAB",
+      "url": "https://kinetics.colorion.co/effects/speed-dial-fab/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Swatch Picker",
+      "url": "https://kinetics.colorion.co/effects/swatch-picker/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Slide to Unlock",
+      "url": "https://kinetics.colorion.co/effects/slide-to-unlock/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Tag Input",
+      "url": "https://kinetics.colorion.co/effects/tag-input/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Keycap Press",
+      "url": "https://kinetics.colorion.co/effects/keycap-press/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Orbital Action Menu",
+      "url": "https://kinetics.colorion.co/effects/orbital-action-menu/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Contextual Dock",
+      "url": "https://kinetics.colorion.co/effects/contextual-dock/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Inertial Dial",
+      "url": "https://kinetics.colorion.co/effects/inertial-dial/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Elastic Lasso",
+      "url": "https://kinetics.colorion.co/effects/elastic-lasso/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Hover Intent Gate",
+      "url": "https://kinetics.colorion.co/effects/hover-intent-gate/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Gesture Chord",
+      "url": "https://kinetics.colorion.co/effects/gesture-chord/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Liquid Glass Press",
+      "url": "https://kinetics.colorion.co/effects/liquid-glass-press/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Bento Expand",
+      "url": "https://kinetics.colorion.co/effects/bento-expand/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Snap Rail",
+      "url": "https://kinetics.colorion.co/effects/snap-rail/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Kinetic XY Pad",
+      "url": "https://kinetics.colorion.co/effects/kinetic-xy-pad/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Command Palette Bloom",
+      "url": "https://kinetics.colorion.co/effects/command-palette-bloom/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Momentum Picker",
+      "url": "https://kinetics.colorion.co/effects/momentum-picker/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Prompt Composer",
+      "url": "https://kinetics.colorion.co/effects/prompt-composer/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Filmstrip Scrubber",
+      "url": "https://kinetics.colorion.co/effects/filmstrip-scrubber/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Drag Stack Collect",
+      "url": "https://kinetics.colorion.co/effects/drag-stack-collect/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Focus Relay",
+      "url": "https://kinetics.colorion.co/effects/focus-relay/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Hold to Talk",
+      "url": "https://kinetics.colorion.co/effects/hold-to-talk/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Lattice Snap",
+      "url": "https://kinetics.colorion.co/effects/lattice-snap/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Velocity Button",
+      "url": "https://kinetics.colorion.co/effects/velocity-button/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Directional Hover",
+      "url": "https://kinetics.colorion.co/effects/directional-hover/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Gesture Compass",
+      "url": "https://kinetics.colorion.co/effects/gesture-compass/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Scramble Reveal",
+      "url": "https://kinetics.colorion.co/effects/scramble-reveal/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Momentum Marquee",
+      "url": "https://kinetics.colorion.co/effects/momentum-marquee/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Stagger Entrance",
+      "url": "https://kinetics.colorion.co/effects/stagger-entrance/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Icon Morph Swap",
+      "url": "https://kinetics.colorion.co/effects/icon-morph-swap/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Underline Draw",
+      "url": "https://kinetics.colorion.co/effects/underline-draw/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Elastic Progress",
+      "url": "https://kinetics.colorion.co/effects/elastic-progress/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Delayed Tooltip",
+      "url": "https://kinetics.colorion.co/effects/delayed-tooltip/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Switch Spring",
+      "url": "https://kinetics.colorion.co/effects/switch-spring/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Checkbox Draw",
+      "url": "https://kinetics.colorion.co/effects/checkbox-draw/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Typewriter",
+      "url": "https://kinetics.colorion.co/effects/typewriter/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Odometer Count-up",
+      "url": "https://kinetics.colorion.co/effects/count-up-animation/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Status Pill",
+      "url": "https://kinetics.colorion.co/effects/status-pill/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Pulse Badge",
+      "url": "https://kinetics.colorion.co/effects/pulse-badge/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Success Check",
+      "url": "https://kinetics.colorion.co/effects/success-check/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Segment Loader",
+      "url": "https://kinetics.colorion.co/effects/segment-loader/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Orbit Spinner",
+      "url": "https://kinetics.colorion.co/effects/orbit-spinner/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Progress Ring",
+      "url": "https://kinetics.colorion.co/effects/progress-ring/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Notification Slide-in",
+      "url": "https://kinetics.colorion.co/effects/notification-slide-in/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Step Progress",
+      "url": "https://kinetics.colorion.co/effects/step-progress/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Undo Snackbar",
+      "url": "https://kinetics.colorion.co/effects/undo-snackbar/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Submit States",
+      "url": "https://kinetics.colorion.co/effects/submit-states/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Countdown Ring",
+      "url": "https://kinetics.colorion.co/effects/countdown-ring/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Skeleton to Content",
+      "url": "https://kinetics.colorion.co/effects/skeleton-to-content/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Toast Stack",
+      "url": "https://kinetics.colorion.co/effects/toast-stack/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Indeterminate Bar",
+      "url": "https://kinetics.colorion.co/effects/indeterminate-bar/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Pulse Badge",
+      "url": "https://kinetics.colorion.co/effects/pulse-badge-2/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Shimmer Skeleton",
+      "url": "https://kinetics.colorion.co/effects/skeleton-loader/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Typing Indicator",
+      "url": "https://kinetics.colorion.co/effects/typing-indicator/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Heartbeat Monitor",
+      "url": "https://kinetics.colorion.co/effects/heartbeat-monitor/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Battery Charge",
+      "url": "https://kinetics.colorion.co/effects/battery-charge/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Signal Bars",
+      "url": "https://kinetics.colorion.co/effects/signal-bars/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Badge Counter",
+      "url": "https://kinetics.colorion.co/effects/badge-counter/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Bookmark Toggle",
+      "url": "https://kinetics.colorion.co/effects/bookmark-toggle/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Packet Trace",
+      "url": "https://kinetics.colorion.co/effects/packet-trace/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Phase Lock",
+      "url": "https://kinetics.colorion.co/effects/phase-lock/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Checksum Bloom",
+      "url": "https://kinetics.colorion.co/effects/checksum-bloom/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Echo Receipt",
+      "url": "https://kinetics.colorion.co/effects/echo-receipt/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "State Diff",
+      "url": "https://kinetics.colorion.co/effects/state-diff/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Signal Braille",
+      "url": "https://kinetics.colorion.co/effects/signal-braille/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Token Stream",
+      "url": "https://kinetics.colorion.co/effects/token-stream/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Presence Stack",
+      "url": "https://kinetics.colorion.co/effects/presence-stack/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Confidence Settle",
+      "url": "https://kinetics.colorion.co/effects/confidence-settle/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Optimistic Rollback",
+      "url": "https://kinetics.colorion.co/effects/optimistic-rollback/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Reconciliation Merge",
+      "url": "https://kinetics.colorion.co/effects/reconciliation-merge/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Activity Ledger",
+      "url": "https://kinetics.colorion.co/effects/activity-ledger/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Agent Handoff",
+      "url": "https://kinetics.colorion.co/effects/agent-handoff/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Rate Limit Cooldown",
+      "url": "https://kinetics.colorion.co/effects/rate-limit-cooldown/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Vector Recall",
+      "url": "https://kinetics.colorion.co/effects/vector-recall/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Stale While Revalidate",
+      "url": "https://kinetics.colorion.co/effects/stale-while-revalidate/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Circuit Breaker",
+      "url": "https://kinetics.colorion.co/effects/circuit-breaker/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Trace Flame",
+      "url": "https://kinetics.colorion.co/effects/trace-flame/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Retry Orbit",
+      "url": "https://kinetics.colorion.co/effects/retry-orbit/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Speculative Race",
+      "url": "https://kinetics.colorion.co/effects/speculative-race/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Partial Success Matrix",
+      "url": "https://kinetics.colorion.co/effects/partial-success-matrix/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Error Shake",
+      "url": "https://kinetics.colorion.co/effects/error-shake/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Confetti Burst",
+      "url": "https://kinetics.colorion.co/effects/confetti-burst/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Parallax Tilt",
+      "url": "https://kinetics.colorion.co/effects/parallax-tilt/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Wave Loader",
+      "url": "https://kinetics.colorion.co/effects/wave-loader/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Skeleton Sweep",
+      "url": "https://kinetics.colorion.co/effects/skeleton-sweep/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Page Peel",
+      "url": "https://kinetics.colorion.co/effects/page-peel/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Cursor Spotlight",
+      "url": "https://kinetics.colorion.co/effects/cursor-spotlight/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Flip Card",
+      "url": "https://kinetics.colorion.co/effects/flip-card/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Glitch Text",
+      "url": "https://kinetics.colorion.co/effects/glitch-text/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Border Beam",
+      "url": "https://kinetics.colorion.co/effects/border-beam/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Aurora Drift",
+      "url": "https://kinetics.colorion.co/effects/aurora-drift/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Shine Sweep",
+      "url": "https://kinetics.colorion.co/effects/shine-sweep/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Breathing Orb",
+      "url": "https://kinetics.colorion.co/effects/breathing-orb/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Float Bob",
+      "url": "https://kinetics.colorion.co/effects/float-bob/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Liquid Blob",
+      "url": "https://kinetics.colorion.co/effects/liquid-blob/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Gradient Shimmer Text",
+      "url": "https://kinetics.colorion.co/effects/gradient-shimmer-text/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Neon Glow Pulse",
+      "url": "https://kinetics.colorion.co/effects/neon-glow-pulse/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Equalizer Bars",
+      "url": "https://kinetics.colorion.co/effects/equalizer-bars/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Radar Pulse",
+      "url": "https://kinetics.colorion.co/effects/radar-pulse/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Newton's Cradle",
+      "url": "https://kinetics.colorion.co/effects/newton-s-cradle/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Bouncing Ball",
+      "url": "https://kinetics.colorion.co/effects/bouncing-ball/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Marquee Reveal",
+      "url": "https://kinetics.colorion.co/effects/marquee-reveal/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Gradient Border Morph",
+      "url": "https://kinetics.colorion.co/effects/gradient-border-morph/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Text Split Reveal",
+      "url": "https://kinetics.colorion.co/effects/text-split-reveal/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Hover Lift",
+      "url": "https://kinetics.colorion.co/effects/hover-lift/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Sheen Sweep",
+      "url": "https://kinetics.colorion.co/effects/sheen-sweep/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Clip Wipe",
+      "url": "https://kinetics.colorion.co/effects/clip-wipe/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "3D Cube Rotate",
+      "url": "https://kinetics.colorion.co/effects/3d-cube-rotate/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Jelly Wobble",
+      "url": "https://kinetics.colorion.co/effects/jelly-wobble/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Folding Doors",
+      "url": "https://kinetics.colorion.co/effects/folding-doors/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Before / After",
+      "url": "https://kinetics.colorion.co/effects/before-after/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Depth Stack",
+      "url": "https://kinetics.colorion.co/effects/depth-stack/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Text Wave",
+      "url": "https://kinetics.colorion.co/effects/text-wave/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Caustic Glass",
+      "url": "https://kinetics.colorion.co/effects/caustic-glass/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Chromatic Split",
+      "url": "https://kinetics.colorion.co/effects/chromatic-split/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Warp Grid",
+      "url": "https://kinetics.colorion.co/effects/warp-grid/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Moir\u00e9 Lens",
+      "url": "https://kinetics.colorion.co/effects/moire-lens/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Polarized Foil",
+      "url": "https://kinetics.colorion.co/effects/polarized-foil/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Metaball Bridge",
+      "url": "https://kinetics.colorion.co/effects/metaball-bridge/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Variable Weight",
+      "url": "https://kinetics.colorion.co/effects/variable-weight/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Specular Orbit",
+      "url": "https://kinetics.colorion.co/effects/specular-orbit/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Noise Dissolve",
+      "url": "https://kinetics.colorion.co/effects/noise-dissolve/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Dither Bloom",
+      "url": "https://kinetics.colorion.co/effects/dither-bloom/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Ferrofluid Crown",
+      "url": "https://kinetics.colorion.co/effects/ferrofluid-crown/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Lenticular Shift",
+      "url": "https://kinetics.colorion.co/effects/lenticular-shift/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Volumetric Shaft",
+      "url": "https://kinetics.colorion.co/effects/volumetric-shaft/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Letterpress Emboss",
+      "url": "https://kinetics.colorion.co/effects/letterpress-emboss/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Rack Focus",
+      "url": "https://kinetics.colorion.co/effects/rack-focus/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "E-ink Refresh",
+      "url": "https://kinetics.colorion.co/effects/e-ink-refresh/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Anamorphic Flare",
+      "url": "https://kinetics.colorion.co/effects/anamorphic-flare/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "LiDAR Sweep",
+      "url": "https://kinetics.colorion.co/effects/lidar-sweep/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Topographic Drift",
+      "url": "https://kinetics.colorion.co/effects/topographic-drift/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Pixel Sort Melt",
+      "url": "https://kinetics.colorion.co/effects/pixel-sort-melt/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "kinetics",
+      "name": "Voronoi Pulse",
+      "url": "https://kinetics.colorion.co/effects/voronoi-pulse/",
+      "license": "Unresolved: no LICENSE in retrieved archive",
+      "status": "Snippet/reference; not guaranteed standalone",
+      "creator": "Csaba Kissi"
+    },
+    {
+      "source": "vault",
+      "name": "Stack type",
+      "url": "https://design.how/vault#stack-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Roll type",
+      "url": "https://design.how/vault#roll-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Warp type",
+      "url": "https://design.how/vault#warp-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Flip type",
+      "url": "https://design.how/vault#flip-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Cloud type",
+      "url": "https://design.how/vault#cloud-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Eclipse grid",
+      "url": "https://design.how/vault#eclipse-grid",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Shutter type",
+      "url": "https://design.how/vault#shutter-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Pop type",
+      "url": "https://design.how/vault#pop-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Misprint type",
+      "url": "https://design.how/vault#misprint-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Verb type",
+      "url": "https://design.how/vault#verb-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Ripple grid",
+      "url": "https://design.how/vault#ripple-grid",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Flood type",
+      "url": "https://design.how/vault#flood-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Phase table",
+      "url": "https://design.how/vault#phase-table",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Swing type",
+      "url": "https://design.how/vault#swing-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Spray burst",
+      "url": "https://design.how/vault#spray-burst",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Rush type",
+      "url": "https://design.how/vault#rush-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Ink flood",
+      "url": "https://design.how/vault#ink-flood",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Bond type",
+      "url": "https://design.how/vault#bond-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Dash cascade",
+      "url": "https://design.how/vault#dash-cascade",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Wild type",
+      "url": "https://design.how/vault#wild-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Loud burst",
+      "url": "https://design.how/vault#loud-burst",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Stamp type",
+      "url": "https://design.how/vault#stamp-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Flower lattice",
+      "url": "https://design.how/vault#flower-lattice",
+      "skill_pack_available": false,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Reality split",
+      "url": "https://design.how/vault#reality-split",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Checker conveyor",
+      "url": "https://design.how/vault#checker-conveyor",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Glass type",
+      "url": "https://design.how/vault#glass-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Sunset slam",
+      "url": "https://design.how/vault#sunset-slam",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Orbit",
+      "url": "https://design.how/vault#orbit",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Word carousel",
+      "url": "https://design.how/vault#word-carousel",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Slide stack",
+      "url": "https://design.how/vault#slide-stack",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Spike type",
+      "url": "https://design.how/vault#spike-type",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Dot globe",
+      "url": "https://design.how/vault#dot-globe",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Arcade pixel",
+      "url": "https://design.how/vault#pixel-threshold",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Code trail",
+      "url": "https://design.how/vault#code-trail",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Holo",
+      "url": "https://design.how/vault#holo",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Glitch word",
+      "url": "https://design.how/vault#glitch-word",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Datamosh",
+      "url": "https://design.how/vault#datamosh",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "AI lights",
+      "url": "https://design.how/vault#ai-lights",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Pixel brushes",
+      "url": "https://design.how/vault#pixel-brushes",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Voice wave",
+      "url": "https://design.how/vault#voice-wave",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Fade motion",
+      "url": "https://design.how/vault#fade-motion",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Dot cut",
+      "url": "https://design.how/vault#dot-cut",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Liquid UI",
+      "url": "https://design.how/vault#liquid-ui",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Kinetic typography",
+      "url": "https://design.how/vault#kinetic-typography",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Liquid metal",
+      "url": "https://design.how/vault#liquid-metal",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Folder embroidery",
+      "url": "https://design.how/vault#folder-embroidery",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Apple's corners",
+      "url": "https://design.how/vault#squircle",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Badge trail",
+      "url": "https://design.how/vault#badge-trail",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Blur glow",
+      "url": "https://design.how/vault#blur-glow",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Text reveal",
+      "url": "https://design.how/vault#text-reveal",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Ransom note",
+      "url": "https://design.how/vault#ransom-note",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Brick reveal",
+      "url": "https://design.how/vault#brick-reveal",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Chromatic glow",
+      "url": "https://design.how/vault#chroma-glow",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Realistic emboss",
+      "url": "https://design.how/vault#emboss",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Blur reveal",
+      "url": "https://design.how/vault#blur-reveal",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Word stickers",
+      "url": "https://design.how/vault#word-stickers",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Design tiles",
+      "url": "https://design.how/vault#design-tiles",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Image sphere",
+      "url": "https://design.how/vault#image-sphere",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Crystal cluster",
+      "url": "https://design.how/vault#crystal-cluster",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Cursors",
+      "url": "https://design.how/vault#cursors",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "The typer",
+      "url": "https://design.how/vault#typer",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Image galaxy",
+      "url": "https://design.how/vault#image-galaxy",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "The art of color depth",
+      "url": "https://design.how/vault#color-depth",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "ASCII particle word",
+      "url": "https://design.how/vault#ascii-field",
+      "skill_pack_available": false,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Pixel cycle",
+      "url": "https://design.how/vault#pixel-cycle",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Ghosty reveal",
+      "url": "https://design.how/vault#ghosty-reveal",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Symbols effect",
+      "url": "https://design.how/vault#sandbox",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Pixel scan",
+      "url": "https://design.how/vault#pixel-scan",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Dia Browser's gradient",
+      "url": "https://design.how/vault#peak-gradient",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Pixel fire",
+      "url": "https://design.how/vault#pixel-fire",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Figma vector editor",
+      "url": "https://design.how/vault#vector-editor",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Tile field",
+      "url": "https://design.how/vault#tile-field",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Amo hover button",
+      "url": "https://design.how/vault#hover-video",
+      "skill_pack_available": true,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "vault",
+      "name": "Midjourney Medical's ASCII",
+      "url": "https://design.how/vault#ascii-swirl",
+      "skill_pack_available": false,
+      "license": "MIT",
+      "creator": "Arlan Marat"
+    },
+    {
+      "source": "beautifului",
+      "name": "Loading State",
+      "url": "https://www.beautifului.dev/#loading-state",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Thinking",
+      "url": "https://www.beautifului.dev/#thinking-state",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Streaming Text",
+      "url": "https://www.beautifului.dev/#streaming-text",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Approval Card",
+      "url": "https://www.beautifului.dev/#approval-card",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Tool Chips",
+      "url": "https://www.beautifului.dev/#tool-chips",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Task Rows",
+      "url": "https://www.beautifului.dev/#task-rows",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Chat",
+      "url": "https://www.beautifului.dev/#chat-composer",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Prompt Bar",
+      "url": "https://www.beautifului.dev/#prompt-bar",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Recommendation Card",
+      "url": "https://www.beautifului.dev/#recommendation-card",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Context Cards",
+      "url": "https://www.beautifului.dev/#context-cards",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Diff Table",
+      "url": "https://www.beautifului.dev/#diff-table",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Records Table",
+      "url": "https://www.beautifului.dev/#records-table",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Filter Table",
+      "url": "https://www.beautifului.dev/#filter-table",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Sidebar Nav",
+      "url": "https://www.beautifului.dev/#sidebar-nav",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Search",
+      "url": "https://www.beautifului.dev/#search",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Flowchart",
+      "url": "https://www.beautifului.dev/#flowchart",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Insight Cards",
+      "url": "https://www.beautifului.dev/#insight-cards",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Code Block",
+      "url": "https://www.beautifului.dev/#code-block",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Fine-tune Card",
+      "url": "https://www.beautifului.dev/#fine-tune-card",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Selection Actions",
+      "url": "https://www.beautifului.dev/#selection-actions",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "beautifului",
+      "name": "Agent Screen",
+      "url": "https://www.beautifului.dev/#agent-screen",
+      "license": "MIT per https://www.beautifului.dev/license",
+      "status": "Rendered reference captured; standalone source not retrieved",
+      "creator": "Shane Levine / Turbo Product"
+    },
+    {
+      "source": "gooey",
+      "name": "Gooey",
+      "url": "https://libraries.dev/gooey",
+      "package": "liquid-gooey",
+      "variants": [
+        "morph",
+        "move",
+        "melt",
+        "bend"
+      ],
+      "license": "MIT library; paid Studio exports separate",
+      "creator": "Jakub Antalik"
+    },
+    {
+      "source": "orbs",
+      "name": "Thinking Orbs",
+      "url": "https://libraries.dev/orbs",
+      "package": "thinking-orbs",
+      "variants": [
+        "working",
+        "searching",
+        "solving",
+        "listening",
+        "connecting",
+        "weaving",
+        "composing",
+        "breathing",
+        "shaping"
+      ],
+      "license": "MIT library; paid Studio exports separate",
+      "creator": "Jakub Antalik; Alexandr Brinza credited for Orbs"
+    },
+    {
+      "source": "cuelume",
+      "name": "tap",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "type",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "select",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "toggle",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "open",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "close",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "success",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "error",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "navigate",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "warning",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "loading",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "ready",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "attention",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    },
+    {
+      "source": "cuelume",
+      "name": "count",
+      "url": "https://cuelume-site.pages.dev/",
+      "package": "cuelume",
+      "license": "MIT",
+      "kind": "audio-feedback",
+      "creator": "Daniel Belyi"
+    }
+  ]
+}

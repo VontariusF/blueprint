@@ -1,0 +1,13 @@
+{
+  "priorities": [
+    "Resolve feasibility and demo-critical unknowns early",
+    "One narrow end-to-end experience",
+    "Risky dependencies and credible fallback"
+  ],
+  "style": "Distinctive, focused and demo-legible; confirm with the user",
+  "motion": "Emphasize meaningful demo interactions",
+  "output": "Compact plan, demo journey, critical path and honest prototype boundaries",
+  "name": "hackathon",
+  "audio": "Optional, preference-aware",
+  "confirmation": "Actual mockups and meaningful journey/states"
+}

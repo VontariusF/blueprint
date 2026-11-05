@@ -1,0 +1,4 @@
+interface:
+  display_name: "vontariusf/blueprint"
+  short_description: "Research ideas and develop build-ready design specifications"
+  default_prompt: "Use $blueprint to research my problem, develop the solution with me, and produce a build-ready design specification."

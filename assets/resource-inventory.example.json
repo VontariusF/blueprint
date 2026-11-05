@@ -1,0 +1,14 @@
+{
+  "kind": "example-schema-not-live-inventory",
+  "resources": [],
+  "entry_fields": {
+    "id": "Stable identifier",
+    "purpose": "Capability",
+    "location": "Service/repository/inventory reference",
+    "access_reference": "Configured connection or credential-store reference; never a secret",
+    "status": "confirmed | pending | unavailable",
+    "constraints": "Budget/access/usage limits",
+    "verification": "Date and evidence",
+    "reuse_scope": "User-designated scope"
+  }
+}
