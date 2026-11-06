@@ -15,6 +15,14 @@ Cover applicable topics without empty boilerplate:
 - Completion: acceptance criteria and appropriate QA by milestone.
 - Agent handoff: reading order, starting milestone, discretion, constraints and dependencies.
 
+## Executable depth
+
+Use stable requirement IDs and a traceability matrix: requirement → journey → screen/state → system/API/data behavior → acceptance check. For each feature specify triggers, actors, preconditions, inputs, rules, transitions, outputs, permissions, failure/recovery, persistence and concurrency/idempotency where relevant. Name exact interfaces, data fields, invariants, access paths, cost limits, operational ownership and evidence behind selections. Before readiness, verify that each acceptance criterion is supported by specified fields, interfaces and state transitions; resolve missing contracts rather than leaving them for the builder to invent. Provide concrete examples rather than headings with aspirational prose.
+
+For substantial interfaces, link the complete canonical visual pack required by visual-design.md. Audit coverage against the scope and contract; an attractive happy path is insufficient. Missing actual mockups, unconfirmed decisions, unknown resource access and unexecuted tests retain their real statuses. A public worked example labels synthetic assumptions and proposal status instead of implying user approval or product validation.
+
+Include build dos/don'ts grounded in the project, an ordered critical path with dependency reasons, parallel work, milestone-specific access prerequisites, test fixtures, expected results, rollback/backup behavior, and a fresh-agent reading order. Avoid arbitrary length quotas: completeness is the ability to execute without inventing consequential decisions.
+
 Connect requirements to behavior/design and verification. Examples: offline connectors preserve local editing; denied permissions cannot be bypassed through another interface; a task retains its intended owner/due date; screen behavior matches a confirmed reference. Select QA appropriate to the project: tests, screenshots, working demonstrations, visual/interaction checks and user review where useful. Planned tests are not executed tests.
 
 Express real dependencies; distinguish complete product vision from bounded initial scope. Dates/effort estimates carry assumptions, not invented precision. Explain which activities determine reaching a milestone.

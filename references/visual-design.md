@@ -2,9 +2,33 @@
 
 Map users, entry points, goals, decisions, actions, handoffs and success/failure before choosing effects. Honor existing design systems unless the user requests change. Profiles supply provisional defaults rather than a mandatory aesthetic.
 
-Develop journey maps, style concepts, UI/UX mockups and important states (loading, empty, errors, partial results, access denial, success/cancellation as relevant). Use available visual tools. Make interactive examples when behavior cannot be understood from still imagery. Expand coverage as scope becomes clear. If tools are unavailable, state the missing artifacts; do not call text descriptions finished mockups.
+## Coverage before rendering
 
-Confirm the presented direction and meaningful interaction choices. Record exact artifact/revision and approved scope; unseen screens are not approved. Preserve labels, field order, navigation, actions, responsive rules and exceptional behavior as implementation references. Generated images illustrate design, not shipped behavior or executable code.
+Create a screen/state inventory with stable IDs, persona, entry point, required data, permissions, actions, outcome, recovery and responsive variants. Map every in-scope journey end to end, including handoffs between humans and agents. Include loading, empty/no matches, validation, permission denial, offline, expired access, stale data, conflict, partial/unknown outcomes, cancellation and success where applicable. Mark exclusions with rationale and obtain user disposition for exclusions affecting core journeys, consequential states or required responsive variants. Scale depth to actual scope, never to an arbitrary page or image quota.
+
+## Generate the visual specification
+
+Use the available image-generation tool to create high-fidelity product mockups, following its instructions. This is an actual generation step, not a suggestion in the final document. Establish the design direction from the project's identity and reference sources; honor existing systems. Generate a complete primary screen, review its hierarchy and legibility, then use that reference for consistent screen-specific generations. Produce fresh, large, readable screen, state and responsive images wherever a compressed overview cannot specify the interface. Detail key tables, forms, dialogs and inspectors separately when needed. Realistic synthetic content must exercise the requirements. Avoid invented capabilities or claims; reconcile any generated extras explicitly.
+
+Cover every inventory row with a named visual reference: either a dedicated mockup or an explicitly inherited canonical component/state with exact differences. Each inherited row names its base artifact, viewport, exact differences and confirmation scope. A shared loading component may serve several screens; a different booking, approval or access decision needs its own reference. A journey poster, collage of tiny screens, generic dashboard, text diagram or rough SVG cannot stand in for the finished mockup set. Nonvisual products use complete command, conversation or process examples instead.
+
+Inspect each generated image at usable resolution for content accuracy, state coverage, readability and design consistency. Regenerate weak images. Derive the design system: exact typography, colors, spacing, geometry, icons, component variants, density, interaction timing and reduced-motion/transparency alternatives. Resolve image ambiguity through inspectable layout references and written values, rather than asking the builder to improvise. Generated text errors and invented controls are corrections to make before freezing the pack.
+
+If image generation is unavailable, explain the gap, continue research/specification and label visual readiness incomplete. Never claim generation occurred, silently substitute a low-fidelity drawing, or call the visual design finished.
+
+## Confirm and freeze
+
+Present actual images and journey/state coverage for confirmation. Record artifact paths, viewport, revision, confirmation evidence and approved scope. Unseen screens and inherited references outside confirmed scope remain unconfirmed. Keep proposed, confirmed, superseded and implementation-verified statuses distinct.
+
+Build a canonical pack with one index, screen/state manifest, exact tokens, per-screen contracts, image references and inspectable interaction/layout references where useful. Each screen contract states layout, field order, exact copy, validation, permissions, actions, feedback, persistence, exceptional behavior and responsive rules. Separate review instrumentation and synthetic data from production behavior. Identify the authority order among functional requirements, canonical layout and generated imagery; resolve contradictions before readiness.
+
+## Enforce 1:1 parity
+
+The confirmed canonical pack is the implementation target. Preserve composition, typography, component geometry, assets, labels, density, responsive behavior and interaction outcomes. The builder may choose internal implementation details inside that contract. Visual or behavioral deviations require a recorded reason and explicit user disposition, with updated references when accepted.
+
+Specify visual QA at the same viewport and state as each canonical reference. Compare screenshots directly and inspect copy, layout, type, colors, spacing, icons, assets and state transitions. Maintain a parity manifest for every applicable screen/state/viewport: reference revision, implementation screenshot, comparison result, unresolved deviation and user disposition. Missing rows or evidence keep parity incomplete. Track mismatches by screen/state ID through correction and recheck. Use overlays or image diffs when helpful; software rendering variation is not permission for a redesigned interface. Functional tests complement visual evidence. Passing a build or producing attractive screenshots alone does not establish parity.
+
+Readiness requires complete applicable coverage, user-confirmed references, resolved design contradictions and executable acceptance criteria. Implemented parity additionally requires comparison evidence from the running product. Planned QA is never executed QA.
 
 ## Reference library
 

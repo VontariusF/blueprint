@@ -28,7 +28,7 @@ Develop purpose, complete vision, intended users, features, scope exclusions, fr
 
 ## Define the experience
 
-For visual interfaces, journeys and interaction design, read [visual design](references/visual-design.md). Develop journey maps, style concepts, UI/UX mockups and important states. Confirm meaningful visual choices. Use a bounded mockup or experiment when discussion alone cannot resolve a question. Use available artifact tools; disclose gaps when unavailable. Text wireframes are interim artifacts, not completed visual mockups. Nonvisual systems use appropriate conversation, command, service or process examples.
+For visual interfaces, journeys and interaction design, read [visual design](references/visual-design.md). Inventory every in-scope screen, journey and consequential state before producing high-fidelity image-generated mockups. Use the image-generation tool for actual visual concepts, then develop a complete canonical design pack with screen contracts and responsive references. Confirm exact revisions with the user. The accepted pack is the build target: require 1:1 visual and behavioral parity, with screenshot evidence and explicit deviation handling. Read the visual-design reference for generation, coverage and parity gates; an overview image or text wireframe cannot satisfy them. Nonvisual systems use appropriate conversation, command, service or process examples.
 
 ## Plan and compile
 
