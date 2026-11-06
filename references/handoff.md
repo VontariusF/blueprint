@@ -8,7 +8,7 @@ Cover applicable topics without empty boilerplate:
 - Evidence: findings, sources, alternatives, assumptions and tradeoffs.
 - Scope: current delivery, included features, explicit exclusions and later work.
 - System: components, data, infrastructure, integrations, boundaries and operations.
-- Resources: existing/new selections, access paths, status, allocation and limits.
+- Resources and access: mandatory entry-Markdown section; inline register or linked RESOURCES.md with resource IDs, required keys/grants, consumers/environments, permission scopes, configuration locations, owners, allocations, authorization/setup/verification evidence, access requests and milestone dependencies. Follow resources.md; never include secret values.
 - Experience: journeys, confirmed style, UI/UX mockups and important states.
 - Delivery: dependencies, milestones, critical path, independent work and next action.
 - Decisions: rationale, unresolved options, affected work, resolver and superseded choices.
@@ -27,11 +27,22 @@ Connect requirements to behavior/design and verification. Examples: offline conn
 
 Express real dependencies; distinguish complete product vision from bounded initial scope. Dates/effort estimates carry assumptions, not invented precision. Explain which activities determine reaching a milestone.
 
+## Completion audit
+
+Use the requested scope and actual navigation/journeys as independent evidence, not just the agent's own manifest. Verify:
+- Every in-scope tab/subtab, distinct role view, form, dialog, journey step and outcome has a view ID, contract and actual current mockup; applicable responsive references exist.
+- Shared-state references resolve to actual inspected artifacts with precise inheritance; exclusions have appropriate user disposition. Counts of files, IDs or superseded images are not completeness evidence.
+- Requirements, images, field/action rules, permissions, data/interfaces and acceptance criteria agree. Exact layout dimensions/tokens are resolved for the canonical revision.
+- Resources and access appear in the entry Markdown/register with named bindings/destinations, owners, scope, approvals, configuration/verification status, requests and milestone dependencies. Unknown access cannot masquerade as configured.
+- The next build milestone is executable without inventing consequential requirements; later access dependencies are identified without blocking independent design.
+
+Keep integrity, coverage, semantic consistency, confirmation and readiness results separate. All unblocked gaps return to the work queue. If only review is outstanding, present the completed proposed pack for confirmation rather than leaving unseen views uncreated. A genuine checkpoint names each blocking decision/capability/authorization, resolver, affected artifacts and independent work exhausted; incompleteness itself is not the blocker.
+
 Before handoff, inspect whether an independent agent can identify what to build next, required inputs, design references, constraints and what counts as done. Check links and contradictions. Missing meaningful mockups prevent visual-design completion; pending external access blocks dependent execution rather than all specification work.
 
 Report milestone readiness with evidence:
-- Ready to build: required decisions and execution inputs are available for that milestone.
-- Design complete with execution dependencies: coherent design with named setup/access prerequisites.
+- Ready to build: required decisions and execution inputs are available for that milestone, including the necessary access authorization, allocation, configuration and relevant verification evidence.
+- Design complete with execution dependencies: coherent design with named setup/access prerequisites, owners and intended configuration locations; existing access is distinguished from proposed setup.
 - Still being shaped: material design/behavior decisions remain unresolved.
 
 Reconcile changes through affected requirements, resources, experience, delivery and acceptance criteria. Preserve unrelated confirmed work and superseded rationale. A checkpoint names open matters and next action rather than claiming universal readiness.

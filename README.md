@@ -22,7 +22,7 @@ Profiles: default, hackathon, startup. These are selectable planning presets, no
 
 ## What it produces
 
-A project entry point linking the purpose, research, complete vision, scope, resources, user journeys, UI/UX mockups, critical path, decisions and observable completion criteria. For visual products, it requires actual image-generated mockups, full screen/state coverage, exact design contracts and a canonical reference pack. Confirmed references define a 1:1 visual and behavioral build target; a parity manifest tracks comparison evidence. Missing generation or approval keeps visual readiness incomplete. Scope adapts to the project. Missing access blocks dependent execution, not independent design work.
+A project entry point linking the purpose, research, complete vision, scope, resources, user journeys, UI/UX mockups, critical path, decisions and observable completion criteria. For visual products, it requires actual image-generated mockups, full screen/state coverage, exact design contracts and a canonical reference pack. Confirmed references define a 1:1 visual and behavioral build target; a parity manifest tracks comparison evidence. Missing generation or approval keeps visual readiness incomplete. Scope adapts to the project. Every blueprint includes a resource/access register: required capabilities, scoped grants or keys, secure configuration references, owners, allocation limits, access requests and separate approval/configuration/verification states. Missing access blocks dependent execution, not independent design work.
 
 ## Reusable context
 
@@ -34,4 +34,6 @@ Supply your own designated resource inventory and style preferences. The include
 
 ## Validation
 
-Structural checks and a bounded independent-agent planning trial were completed. The first trial led to a correction ensuring useful independent research continues while dependent human decisions are unanswered. The revised visual and handoff instructions also received an independent acceptance audit; coverage exclusions, component inheritance and parity evidence were tightened in response. The published worked example is a separate synthetic proposed specification, not a completed agent benchmark or a tested product.
+Neutral trials exposed premature stopping and incomplete view coverage. After revisions, a fresh agent given the skill and an idea independently completed research, product questions, executable contracts, a resource/access register and 50 current image-generated references. Coverage included selected tabs for each role, journey outcomes, dialogs, responsive layouts and recovery states. A synthetic product owner reviewed exact images and explicit shared-component assemblies before design freeze. Runtime instructions remained unchanged during the trial; no reminders to create mockups or complete missing views were supplied.
+
+A separate neutral resource reconciliation passed scoped checks for read-only grants, expired credentials, missing storage, approved-but-unconfigured access and denied production allocation. Earlier incomplete and credit-interrupted trials remain distinct from the completed run. These are specification-workflow checks, not evidence of application implementation, measured visual parity or live provider access. Further projects and agents may expose additional gaps.

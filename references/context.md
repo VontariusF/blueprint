@@ -6,13 +6,9 @@ Load ../profiles/default.json or the selected hackathon/startup preset. Presets 
 
 No personal compute, accounts, subscriptions or credentials are bundled. The example inventory under ../assets/ is a schema, not actual access. Ask for an inventory location only when missing context matters; continue research meanwhile. Fixtures are not live connections.
 
-## Confirm relevant resources
+## Resources
 
-Reuse established access and locations; verify mutable capacity/cost/suitability when relevant. Availability does not imply project allocation. Record capability, rationale, location, access reference, status, restrictions, verification evidence and affected milestones. Reference credential stores/connections rather than secret values.
-
-When research identifies a needed resource absent from inventory, agree its role and clarify how access can be made possible: account/connection/setup, responsible person, required budget and dependent milestone. Design around explicit pending dependencies while progressing elsewhere. Design readiness and milestone execution readiness are separate. Planning purchase/provisioning does not authorize executing it.
-
-Allow implementation discretion within confirmed budgets and access. Limits vary by project. Do not assume universal budgets or silently allocate shared credits.
+Read [resources and access](resources.md) for capability selection, allocations, credential/grant requests, secure location references, verification and milestone readiness. Keep implementation discretion inside confirmed budgets and actual access. No universal budget or shared-credit allocation is implied.
 
 ## Ambiguity and reuse
 

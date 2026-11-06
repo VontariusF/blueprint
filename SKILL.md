@@ -24,11 +24,15 @@ Read [research and decisions](references/research.md) when investigating or comp
 
 Research and discussion may develop in the initial chat. Persist essential findings and choices into the project blueprint so a fresh build agent can reconstruct requirements without that chat. Revise decisions when new evidence warrants it.
 
-Develop purpose, complete vision, intended users, features, scope exclusions, friction, boundaries, infrastructure and resources together. Follow resource and ambiguity rules in [context](references/context.md).
+Develop purpose, complete vision, intended users, features, scope exclusions, friction, boundaries, infrastructure and resources together. Follow reuse and ambiguity rules in [context](references/context.md).
+
+## Define resources and access
+
+Read [resources and access](references/resources.md). Include a Resources and access section in every blueprint Markdown, with a detailed register inline or linked. Research needed capabilities, reuse designated inventory, and request missing keys, grants or setup through an appropriate secure route when authorized. Record permission scope, owner, configuration names, where access exists or is intended to exist, allocation limits, approval evidence and dependent milestones. Store references rather than secret values. Keep approval, configuration and verification distinct; pending access blocks its dependent execution, not independent design.
 
 ## Define the experience
 
-For visual interfaces, journeys and interaction design, read [visual design](references/visual-design.md). Inventory every in-scope screen, journey and consequential state before producing high-fidelity image-generated mockups. Use the image-generation tool for actual visual concepts, then develop a complete canonical design pack with screen contracts and responsive references. Confirm exact revisions with the user. The accepted pack is the build target: require 1:1 visual and behavioral parity, with screenshot evidence and explicit deviation handling. Read the visual-design reference for generation, coverage and parity gates; an overview image or text wireframe cannot satisfy them. Nonvisual systems use appropriate conversation, command, service or process examples.
+For visual interfaces, journeys and interaction design, read [visual design](references/visual-design.md). Inventory each navigation tab/subtab, distinct role view, creation/edit form, dialog and user-journey step/outcome before producing high-fidelity image-generated mockups. Give every distinct view its own ID and actual reference; a screenshot containing a tab label does not cover that tab's contents. Use the image-generation tool for actual visual concepts, then develop a complete canonical design pack with screen contracts and responsive references. After establishing the direction, continue generating every unblocked view and applicable responsive/state reference. Present exact revisions for confirmation; pending approval keeps artifacts proposed, not uncreated. The accepted pack is the build target: require 1:1 visual and behavioral parity, with screenshot evidence and explicit deviation handling. Read the visual-design reference for generation, coverage and parity gates; an overview image or text wireframe cannot satisfy them. Nonvisual systems use appropriate conversation, command, service or process examples.
 
 ## Plan and compile
 
@@ -38,7 +42,11 @@ Read [handoff and readiness](references/handoff.md) before compiling or claiming
 
 For changes discovered during implementation, trace affected decisions, resources, journeys, milestones and acceptance criteria. Reconcile those portions, preserve unrelated confirmed work and retain consequential rationale.
 
-## Finish or checkpoint
+## Complete the work
+
+Maintain a work queue through research, decisions, resources, contracts and visual coverage. Continue available work until the requested blueprint is complete or each remaining branch has a concrete blocker. A progress update or a missing-work list is not a stopping condition. Pending production access, an arbitrary image count, or the end of a generation batch does not justify stopping independent design. Generate unblocked proposed references while awaiting their review; approval of unseen artifacts is never inferred.
+
+Before final handoff, walk every navigation destination and journey transition against actual artifacts and resolve uncovered tabs, forms, outcomes and applicable responsive/state variants. Run the completion audit in [handoff and readiness](references/handoff.md). If remaining work genuinely requires a user decision, unavailable tool, authorization or explicit pause, checkpoint with the exact blocker, affected work, resolver and independent work exhausted. Resume available work when resolved.
 
 Report what is defined, what needs a decision/access, and the next available action. Assess readiness per milestone: ready to build; design complete with execution dependencies; or still being shaped. Pending access does not stop independent specification work. Proposed designs are not tested implementations; unconfirmed mockups are not approved.
 

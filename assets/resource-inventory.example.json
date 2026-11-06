@@ -2,13 +2,33 @@
   "kind": "example-schema-not-live-inventory",
   "resources": [],
   "entry_fields": {
-    "id": "Stable identifier",
-    "purpose": "Capability",
-    "location": "Service/repository/inventory reference",
-    "access_reference": "Configured connection or credential-store reference; never a secret",
-    "status": "confirmed | pending | unavailable",
-    "constraints": "Budget/access/usage limits",
-    "verification": "Date and evidence",
-    "reuse_scope": "User-designated scope"
+    "id": "Stable resource identifier",
+    "purpose": "Required capability and consuming feature",
+    "selection": "proposed | confirmed | rejected; rationale and evidence",
+    "target": "Service/account/project/repository reference; explicitly unknown if unresolved",
+    "consumer_environment": "Build agent/server/client/CI/operator; development/staging/production separately",
+    "permission_scope": "Minimum required operations, target scope and expiry",
+    "owner": "Resource owner and grant/setup owner",
+    "allocation": "Confirmed project allocation, spend and usage limits, evidence",
+    "auth_method": "Credential, scoped identity, membership or configured connection",
+    "configuration_names": "Required variable or connection names; no values",
+    "access_reference": "Authorized configured connection or secure-store reference; never a secret",
+    "intended_destination": "Where access should be configured and how it binds to its consumer; proposed is not configured",
+    "authorization": "not required | pending | approved | denied; operation/scope and evidence",
+    "availability": "not configured | configured, unverified | verified | unavailable | expired | revoked",
+    "verification": "not run | passed | failed; permitted check, environment, date and nonsecret evidence",
+    "dependencies": "Milestone IDs, independent work and next action",
+    "request_id": "Linked access request if needed",
+    "reuse_scope": "Only user-designated reuse"
+  },
+  "access_requests": [],
+  "request_fields": {
+    "id": "Stable request identifier",
+    "resource_id": "Linked selected resource",
+    "request": "Purpose, target/environment, minimum permission or setup, destination, responsible person, allocation limit and affected milestone",
+    "decision": "Actual user response and authorized scope; pending when unanswered",
+    "setup": "Configuration work/status, separate from approval",
+    "verification": "Authorized capability check and nonsecret outcome",
+    "alternative": "What happens if declined/delayed; work that can continue"
   }
 }
