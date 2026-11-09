@@ -9,7 +9,7 @@ Cover applicable topics without empty boilerplate:
 - Scope: current delivery, included features, explicit exclusions and later work.
 - System: components, data, infrastructure, integrations, boundaries and operations.
 - Resources and access: mandatory entry-Markdown section; inline register or linked RESOURCES.md with resource IDs, required keys/grants, consumers/environments, permission scopes, configuration locations, owners, allocations, authorization/setup/verification evidence, access requests and milestone dependencies. Follow resources.md; never include secret values.
-- Experience: journeys, confirmed style, UI/UX mockups and important states.
+- Experience: journeys, visual brief, concept alternatives/selection evidence or an existing confirmed direction, exact anchor revision, UI/UX mockups and important states. Direction selection and full-pack confirmation are separate decisions.
 - Delivery: dependencies, milestones, critical path, independent work and next action.
 - Decisions: rationale, unresolved options, affected work, resolver and superseded choices.
 - Completion: acceptance criteria and appropriate QA by milestone.
@@ -30,13 +30,14 @@ Express real dependencies; distinguish complete product vision from bounded init
 ## Completion audit
 
 Use the requested scope and actual navigation/journeys as independent evidence, not just the agent's own manifest. Verify:
+- Visual products have a recorded direction decision tied to an actual anchor/reference revision before full mockup expansion; concept selection is not blanket approval of later screens.
 - Every in-scope tab/subtab, distinct role view, form, dialog, journey step and outcome has a view ID, contract and actual current mockup; applicable responsive references exist.
 - Shared-state references resolve to actual inspected artifacts with precise inheritance; exclusions have appropriate user disposition. Counts of files, IDs or superseded images are not completeness evidence.
 - Requirements, images, field/action rules, permissions, data/interfaces and acceptance criteria agree. Exact layout dimensions/tokens are resolved for the canonical revision.
 - Resources and access appear in the entry Markdown/register with named bindings/destinations, owners, scope, approvals, configuration/verification status, requests and milestone dependencies. Unknown access cannot masquerade as configured.
 - The next build milestone is executable without inventing consequential requirements; later access dependencies are identified without blocking independent design.
 
-Keep integrity, coverage, semantic consistency, confirmation and readiness results separate. All unblocked gaps return to the work queue. If only review is outstanding, present the completed proposed pack for confirmation rather than leaving unseen views uncreated. A genuine checkpoint names each blocking decision/capability/authorization, resolver, affected artifacts and independent work exhausted; incompleteness itself is not the blocker.
+Keep integrity, coverage, semantic consistency, confirmation and readiness results separate. All unblocked gaps return to the work queue. Before direction selection, use the concept-review checkpoint in visual-design.md while completing independent specification work. After direction confirmation, if only screen/pack review is outstanding, present the completed proposed pack for confirmation rather than leaving unseen views uncreated. A genuine checkpoint names each blocking decision/capability/authorization, resolver, affected artifacts and independent work exhausted; incompleteness itself is not the blocker.
 
 Before handoff, inspect whether an independent agent can identify what to build next, required inputs, design references, constraints and what counts as done. Check links and contradictions. Missing meaningful mockups prevent visual-design completion; pending external access blocks dependent execution rather than all specification work.
 
