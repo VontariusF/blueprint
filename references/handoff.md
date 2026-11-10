@@ -39,6 +39,8 @@ Use the requested scope and actual navigation/journeys as independent evidence, 
 
 Keep integrity, coverage, semantic consistency, confirmation and readiness results separate. All unblocked gaps return to the work queue. Before direction selection, use the concept-review checkpoint in visual-design.md while completing independent specification work. After direction confirmation, if only screen/pack review is outstanding, present the completed proposed pack for confirmation rather than leaving unseen views uncreated. A genuine checkpoint names each blocking decision/capability/authorization, resolver, affected artifacts and independent work exhausted; incompleteness itself is not the blocker.
 
+For visual packs, follow [canonical pack controls](canonical-pack.md). Update the durable record after each inspected batch and owner decision, then generate the current checkpoint from that record. Before readiness, verify shared-layout comparisons and image-to-viewport mappings, run the pack checker, and reconcile every current summary with its revision/digest. Retain older checkpoints as clearly dated history, with the current entry point pointing to the latest one. Mechanical checks complement the independent journey walk and actual visual review; they cannot certify visual quality or infer user approval.
+
 Before handoff, inspect whether an independent agent can identify what to build next, required inputs, design references, constraints and what counts as done. Check links and contradictions. Missing meaningful mockups prevent visual-design completion; pending external access blocks dependent execution rather than all specification work.
 
 Report milestone readiness with evidence:

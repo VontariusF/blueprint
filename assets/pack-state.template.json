@@ -1,0 +1,57 @@
+{
+  "revision": "r1",
+  "phase": "shaping",
+  "required_views": ["main-desktop"],
+  "shells": [
+    {
+      "id": "app-desktop",
+      "revision": "r1",
+      "reference_id": "main-desktop-r1",
+      "contract": "design/shell.md",
+      "contract_sha256": "replace-with-shell-contract-sha256"
+    }
+  ],
+  "references": [
+    {
+      "id": "main-desktop-r1",
+      "view_id": "main-desktop",
+      "artifact": "design/main-r1.png",
+      "sha256": "replace-with-actual-file-sha256",
+      "status": "proposed",
+      "shell_id": "app-desktop",
+      "shell_revision": "r1",
+      "capture": {
+        "source_px": [1440, 1000],
+        "app_rect_px": [0, 0, 1440, 1000],
+        "excluded_insets_px": [0, 0, 0, 0],
+        "framing": "none",
+        "viewport_css": [1440, 1000],
+        "content_css": [1440, 1000],
+        "scale_css_per_source_px": 1,
+        "device_pixel_ratio": null,
+        "mode": "viewport"
+      },
+      "inspection": {
+        "sha256": "replace-with-inspected-file-sha256",
+        "evidence": "design/review.md",
+        "content": "pending",
+        "framing": "pending",
+        "shell": "pending"
+      }
+    }
+  ],
+  "decisions": [],
+  "queue": [
+    {
+      "id": "complete-independent-journey-and-visual-review",
+      "category": "design",
+      "status": "open"
+    }
+  ],
+  "reviews": {
+    "coverage": {"result": "pending"},
+    "consistency": {"result": "pending"},
+    "tokens": {"result": "pending"},
+    "assemblies": {"result": "pending"}
+  }
+}

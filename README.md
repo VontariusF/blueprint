@@ -28,6 +28,10 @@ A project entry point linking the purpose, research, complete vision, scope, res
 
 Blueprint discusses your visual preferences before generating concepts. When direction is unresolved, it normally creates three distinct image-generated variations of the same representative screen. Select one, combine elements, request refinements or suggest another direction. After you confirm the actual anchor reference, the agent expands every required tab, journey, state and responsive layout in that direction. Concept selection does not approve the later screens; the complete reference pack receives its own review. Research and functional planning continue while a direction decision is pending. Already confirmed project directions are reused.
 
+## Keep the design consistent
+
+Blueprint binds related screens and states to shared layout revisions, checks each image's app bounds and source-to-viewport mapping, and records inspections and approvals against the exact image hash. A durable pack record drives the current checkpoint so interrupted runs can resume without relying on stale summaries. The included pack checker catches structural contradictions and outdated evidence; actual visual review and user confirmation remain necessary. See [canonical pack controls](references/canonical-pack.md).
+
 ## Reusable context
 
 Supply your own designated resource inventory and style preferences. The included example is a schema, not live access. Project decisions stay local unless you designate them for reuse. No personal credentials, paths or infrastructure are included.
@@ -42,4 +46,4 @@ Neutral trials exposed premature stopping and incomplete view coverage. After re
 
 A separate neutral resource reconciliation passed scoped checks for read-only grants, expired credentials, missing storage, approved-but-unconfigured access and denied production allocation. Earlier incomplete and credit-interrupted trials remain distinct from the completed run. These are specification-workflow checks, not evidence of application implementation, measured visual parity or live provider access. Further projects and agents may expose additional gaps.
 
-The explicit concept-selection gate was added after those neutral trials. This update received structural, link, portability and instruction-consistency checks; a fresh neutral-agent run of the new gate has not yet been performed.
+A subsequent fresh neutral run exercised the concept-selection gate without reminders: three actual concepts, a combined revised anchor, scoped confirmation and 76 current image-generated references. It exposed remaining shared-layout drift and inconsistent screenshot framing. Workspace credit exhaustion interrupted the final audit reconciliation after generation completed, so that run remains a partial pass. This revision adds shared-layout comparisons, per-image capture contracts and a durable pack record/checker. These corrections receive targeted regression and packaging checks; they have not yet passed a new full neutral-agent run. No application implementation or measured visual parity is implied.
