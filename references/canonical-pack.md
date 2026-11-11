@@ -41,10 +41,37 @@ Run the bundled checker with the pack record:
 
 It checks artifact hashes/dimensions, coordinate mappings, reference/shell bindings, review evidence and confirmation invariants, and writes a checkpoint from that same record even when validation fails. It reads PNG dimensions directly; other raster formats require Pillow in the host environment. A failing result is work to resolve or explicitly checkpoint. The checker does not inspect pixels, authenticate owner evidence, infer omitted journeys or certify aesthetics. Actual visual/semantic review remains required.
 
-## Reconcile before handoff
+## Refresh together, then reconcile before handoff
 
-Generate current counts/status/checkpoint from the pack record rather than maintaining independent claims in several documents. The checkpoint includes the record digest. Link it from the entry point and index. Before handoff, check every current summary (blueprint, gallery/index, approval ledger and audit) against that revision/digest, including anchor approval, remaining work and readiness. Archive obsolete checkpoints with their original revision; never present one as current.
+Use `sync_handoff.py` for visual-pack progress, not the optional checkpoint-only checker command. Immediately after recording each inspected batch, owner decision, changed contract or blocker, run:
+
+    python3 <skill-directory>/scripts/sync_handoff.py <project>/pack-state.json
+
+Run this before the next expensive batch, before asking for review, and before yielding or resuming after interruption. It generates CHECKPOINT.md and AUDIT.md, refreshes managed status blocks in the entry/handoff/index/approval summaries, and snapshots the current document hashes. Validation failures still produce a truthful partial checkpoint. It preserves substantive document bodies and review evidence, archiving an existing authored AUDIT.md under audit-history/ on first adoption; refresh is not an audit approval. Keep enough execution budget for this inexpensive refresh. After an interruption, refresh before further generation.
+
+### Declare the handoff surface
+
+The record's `handoff` object has an `entry`, `summaries` and `documents`. `summaries` lists every current Markdown document carrying progress/readiness claims, including the entry, handoff, gallery's Markdown index and approval ledger when present. `documents` includes those summaries plus all specification/research/resource/decision/contract/traceability and supporting review documents a fresh builder relies on. Use actual project-relative paths, remove unused template examples, and add new relied-on documents as they are created. HTML galleries belong in `documents`; link the current Markdown index/status rather than duplicating hand-written progress counts inside HTML. CHECKPOINT.md, AUDIT.md and handoff-snapshot.json are generated and excluded from these lists.
+
+Managed status blocks carry current progress. Keep the surrounding narrative about stable requirements and rationale; replace obsolete next steps and approval/readiness statements rather than retaining competing current claims. The script preserves narrative so a substantive reconciliation is still necessary.
+
+### Bind substantive reconciliation to the actual specification
+
+Before any final handoff, independently walk the requested scope and journeys against the actual artifacts using handoff.md. Reconcile every declared document: entry status, selected anchor, current image set, approval scope, resources/access, contracts, QA claims, reading order, next milestone and remaining work. Write the actual findings, reviewed documents and readiness rationale to a separate AUDIT-REVIEW.md (or equivalent). This is an agent's fresh review pass; it does not require another agent or imply owner confirmation. Return unblocked gaps to the queue and resolve them first. A blocked partial handoff still needs an accurate current review.
+
+After reviewing the exact current contents, obtain the review target:
+
+    python3 <skill-directory>/scripts/sync_handoff.py <project>/pack-state.json --print-context-digest
+
+Set `handoff_review` to `result: pass`, that `context_digest`, the project-relative review `evidence` path and its actual `evidence_sha256`. Pass means the handoff accurately represents current work, including any blockers; it does not promote design phase or approve images. The evidence file is separate from `handoff.documents` and generated outputs, avoiding a circular digest. Then refresh and run the read-only final gate:
+
+    python3 <skill-directory>/scripts/sync_handoff.py <project>/pack-state.json
+    python3 <skill-directory>/scripts/sync_handoff.py <project>/pack-state.json --check
+
+Add `--require-confirmed` to the final check when claiming the canonical design is confirmed. A successful partial-handoff check only establishes current reconciliation, not design completion. Changed record fields or document bodies invalidate the review; changed generated summaries, evidence or snapshots fail freshness checks. Re-review affected material, update evidence and digest, then refresh. Never copy the new digest into an old review without reviewing the changes.
+
+The final gate checks hashes and freshness, not whether prose is true or the declared document list is exhaustive. Inspect meaning and links during reconciliation. Report the gate result together with phase and unresolved dependencies. Mechanical PASS in shaping is still partial.
 
 A completed proposed pack can enter review with pending screen/token/assembly approvals, explicitly labeled. A confirmed design requires all current references and required interpretation reviews confirmed, resolved visual/behavior contradictions, and no open independent design work. Service access may still block later execution. Implementation parity additionally requires actual implementation screenshots and behavioral evidence; `phase: confirmed` never asserts implementation.
 
-Resume from the durable record after interruption: verify hashes, inspect changed artifacts, reconcile new owner decisions, regenerate the checkpoint and continue available work. If generation/credits/tools stop, preserve the latest partial record and name the external blocker; do not relabel incomplete work as complete or silently transfer approvals.
+Preflight an approved rendering route before committing to resolved token/layout assemblies. If unavailable, record the capability, resolver and affected reviews in resources and queue while continuing independent design. Preserve exact proposed work and outstanding review scope; unseen composites remain unconfirmed.
