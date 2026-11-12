@@ -1,6 +1,6 @@
 # Research and collaborative decisions
 
-Develop the investigation agenda from the user's knowledge, current workflow, desired outcome and consequential unknowns. Research can change the problem definition, not merely justify a tool.
+Use the [Contextual Resolution Method](contextual-resolution.md) to establish the problem map and derive the investigation agenda. Link decision-driving research to its originating component, relationship or contextual uncertainty and the decision it could change. Feed findings back into the map and refined problem definition; research can change the problem, not merely justify a tool.
 
 Inspect existing systems and compare reuse, extension, replacement and greenfield where relevant. Investigate capabilities, costs, integration limits, access/data boundaries, failure modes, operating responsibilities and licensing when they affect feasibility. Use authoritative sources for technical claims and record source/date or revision.
 

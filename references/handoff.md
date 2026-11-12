@@ -3,7 +3,7 @@
 Maintain one entry point (normally BLUEPRINT.md), honoring requested format/location and project conventions. Small projects can use one document; larger projects link focused research, architecture, design and verification material. Essential decisions must survive without the originating chat.
 
 Cover applicable topics without empty boilerplate:
-- Purpose: problem, users, current workflow, motivation and desired change.
+- Purpose and CRM foundation: initial/refined problem, users or systems, motivation, component relationships, relevant context and scope rationale; link the problem map and evidence-driven research agenda.
 - Complete vision: intended solution and observable behavior.
 - Evidence: findings, sources, alternatives, assumptions and tradeoffs.
 - Scope: current delivery, included features, explicit exclusions and later work.
@@ -17,7 +17,7 @@ Cover applicable topics without empty boilerplate:
 
 ## Executable depth
 
-Use stable requirement IDs and a traceability matrix: requirement → journey → screen/state → system/API/data behavior → acceptance check. For each feature specify triggers, actors, preconditions, inputs, rules, transitions, outputs, permissions, failure/recovery, persistence and concurrency/idempotency where relevant. Name exact interfaces, data fields, invariants, access paths, cost limits, operational ownership and evidence behind selections. Before readiness, verify that each acceptance criterion is supported by specified fields, interfaces and state transitions; resolve missing contracts rather than leaving them for the builder to invent. Provide concrete examples rather than headings with aspirational prose.
+Trace the CRM foundation into the specification: need or problem relationship → research question/finding → requirement. Then use stable requirement IDs and a traceability matrix: requirement → journey → screen/state → system/API/data behavior → acceptance check. For each feature specify triggers, actors, preconditions, inputs, rules, transitions, outputs, permissions, failure/recovery, persistence and concurrency/idempotency where relevant. Name exact interfaces, data fields, invariants, access paths, cost limits, operational ownership and evidence behind selections. Before readiness, verify that each acceptance criterion is supported by specified fields, interfaces and state transitions; resolve missing contracts rather than leaving them for the builder to invent. Provide concrete examples rather than headings with aspirational prose.
 
 For substantial interfaces, link the complete canonical visual pack required by visual-design.md. Audit coverage against the scope and contract; an attractive happy path is insufficient. Missing actual mockups, unconfirmed decisions, unknown resource access and unexecuted tests retain their real statuses. A public worked example labels synthetic assumptions and proposal status instead of implying user approval or product validation.
 
@@ -29,7 +29,8 @@ Express real dependencies; distinguish complete product vision from bounded init
 
 ## Completion audit
 
-Use the requested scope and actual navigation/journeys as independent evidence, not just the agent's own manifest. Verify:
+Use the refined problem, requested scope and actual navigation/journeys as independent evidence, not just the agent's own manifest. Verify:
+- The CRM foundation records meaningful parts/relationships and relevant context, shows how consequential research informed the response, and explains changes or continuity from the initial framing. The solution and completion checks address that refined problem; a feature list alone is insufficient.
 - Visual products have a recorded direction decision tied to an actual anchor/reference revision before full mockup expansion; concept selection is not blanket approval of later screens.
 - Every in-scope tab/subtab, distinct role view, form, dialog, journey step and outcome has a view ID, contract and actual current mockup; applicable responsive references exist.
 - Shared-state references resolve to actual inspected artifacts with precise inheritance; exclusions have appropriate user disposition. Counts of files, IDs or superseded images are not completeness evidence.

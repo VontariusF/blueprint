@@ -1,6 +1,6 @@
 # vontariusf/blueprint
 
-Research the problem. Define the solution. Give the build agent a blueprint.
+Begin with the Contextual Resolution Method. Research the problem. Define the solution. Give the build agent a blueprint.
 
 Created by [Vontarius Falls](https://vontarius.xyz). [Overview and examples](https://vontarius.xyz/skills/blueprint/).
 
@@ -19,6 +19,12 @@ The installer lets you choose your coding agent. Add `-g` for use across project
 Tell your agent: “Use Blueprint with the startup profile. Here is the problem I want to solve…”
 
 Profiles: default, hackathon, startup. These are selectable planning presets, not separate native slash commands. Some hosts expose the local skill as `$blueprint`.
+
+## Begin with the Contextual Resolution Method
+
+Blueprint opens with the **Contextual Resolution Method (CRM)**, developed by Vontarius Falls. Work with your agent to define the problem, break down its parts and relationships, look into the surrounding context, and rethink the problem in light of the evidence. This discussion determines what the agent researches and why. An app, process change, service or adaptation of an existing system may be the response.
+
+The resulting problem map, research findings and agreed boundaries lead into solution design, resources, visual direction, the full mockup set and delivery planning. Check the proposal against the original need, and return to earlier questions whenever evidence changes the understanding. All profiles follow this method; their emphasis and depth differ. See [the CRM workflow](references/contextual-resolution.md).
 
 ## What it produces
 
@@ -49,3 +55,7 @@ A separate neutral resource reconciliation passed scoped checks for read-only gr
 A subsequent fresh neutral run exercised the concept-selection gate without reminders: three actual concepts, a combined revised anchor, scoped confirmation and 76 current image-generated references. It exposed remaining shared-layout drift and inconsistent screenshot framing. Workspace credit exhaustion interrupted the final audit reconciliation after generation completed, so that run remains a partial pass. This revision adds shared-layout comparisons, per-image capture contracts and a durable pack record/checker. These corrections receive targeted regression and packaging checks; they have not yet passed a new full neutral-agent run. No application implementation or measured visual parity is implied.
 
 The next neutral trial independently selected a direction and produced 37 current, individually reviewed desktop/phone references, correcting several layout inconsistencies without reminders. It remained a partial pass: the checkpoint and audit fell behind, rendering was blocked and credits interrupted closeout. The current revision adds generated handoff summaries, document snapshots and a reconciliation gate bound to the current specification. These changes passed 23 focused handoff regression scenarios alongside the 17 existing pack scenarios; a new full neutral-agent trial is still required.
+
+The handoff revision was then exercised end to end: a fresh agent completed 36 confirmed desktop/phone layout references and a final audit/handoff that passed independent checks. One earlier record edit left its checkpoint stale until the next batch refresh, so continuous checkpoint freshness remained a partial pass. This limitation is separate from the CRM methodology update.
+
+The CRM-led opening workflow is a subsequent update. Earlier neutral trials do not validate this new entry phase; a fresh behavioral trial is still needed.

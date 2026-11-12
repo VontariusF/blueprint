@@ -1,4 +1,4 @@
 interface:
   display_name: "vontariusf/blueprint"
   short_description: "Research ideas and develop build-ready design specifications"
-  default_prompt: "Use $blueprint to research my problem, develop the solution with me, and produce a build-ready design specification."
+  default_prompt: "Use $blueprint, starting with the Contextual Resolution Method to deconstruct my problem and guide the research, then develop a build-ready design specification with me."

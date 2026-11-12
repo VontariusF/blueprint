@@ -1,6 +1,6 @@
 ---
 name: blueprint
-description: Develop and maintain build-ready design specifications through research, collaborative problem definition, resource planning, user journeys, mockups, and acceptance criteria. Use to turn ideas or existing projects into blueprints, refine design specs, or reconcile them during implementation. Ordinary implementation tasks do not require this workflow.
+description: Develop and maintain build-ready design specifications using the Contextual Resolution Method for problem deconstruction and contextual research, followed by resource planning, user journeys, mockups, and acceptance criteria. Use to turn ideas or existing projects into blueprints, refine design specs, or reconcile them during implementation. Ordinary implementation tasks do not require this workflow.
 ---
 
 # vontariusf/blueprint
@@ -10,21 +10,21 @@ Develop an executable design specification with the user around three questions:
 - What do I need to solve this?
 - What does it look like once this is solved?
 
-The method is research-first and collaborative. Create project artifacts as decisions develop, rather than hurrying from a vague idea to a confident specification. Preserve the complete vision while defining a bounded next delivery. Blueprint plans and maintains specifications; implementing the product requires the user's implementation request.
+Lead with the **Contextual Resolution Method (CRM)**: understand and deconstruct the problem with the user, investigate its relationships and surroundings, and reframe it before committing to a solution. Create project artifacts as decisions develop, rather than hurrying from a vague idea to a confident specification. Preserve the complete vision while defining a bounded next delivery. Blueprint plans and maintains specifications; implementing the product requires the user's implementation request.
 
 ## Start from existing context
 
 Resolve create, refine, or reconcile. Read relevant conversation, project instructions, existing specifications and repository evidence. Reuse settled answers. Read [context and profiles](references/context.md) at the start. Load only the selected default/hackathon/startup preset and designated reusable context. Labels such as blueprint/hackathon select a profile conversationally; they do not promise a native slash command. Use default when none is selected.
 
-Reflect the problem and desired change in plain language. Identify consequential unknowns and begin useful investigation. Ask a small coherent set of consequential questions rather than requiring a long intake form. Research factual unknowns through available sources; the user owns intentions and consequential tradeoffs. Continue independent work while waiting. Required unanswered decisions keep dependent work pending; elapsed time is not an answer.
+## Lead with the Contextual Resolution Method
 
-## Research and shape
+Read [the CRM workflow](references/contextual-resolution.md) before opening a new inquiry or revisiting a material problem/scope decision. Guide the user through Define → Break down → Look around → Rethink. In plain language, establish why the problem matters, map its parts and relationships, separate symptoms from possible causes, then derive and run research from the consequential unknowns. Compare the initial and refined understanding and establish the intended outcome and delivery boundaries together. Reuse settled inquiry when refining an existing blueprint.
 
-Read [research and decisions](references/research.md) when investigating or comparing solutions. Start with what the user knows and explore missing angles. Inspect existing systems before choosing reuse, extension, replacement or greenfield. Gather evidence proportionate to the decision. Distinguish sourced findings, user-confirmed choices, inspected behavior and assumptions. Report unavailable research honestly.
+This is Blueprint's leading phase. Its problem map and research agenda must guide tool, infrastructure and solution investigation. Preliminary research can inform the discussion; keep the proposed product provisional until the need is sufficiently understood. Ask a small coherent set of questions, continue independent work while waiting, and seek owner decisions where required. Elapsed time is not an answer.
 
-Research and discussion may develop in the initial chat. Persist essential findings and choices into the project blueprint so a fresh build agent can reconstruct requirements without that chat. Revise decisions when new evidence warrants it.
+Persist this foundation in the entry document or linked PROBLEM.md, with evidence, open questions and links to research/decisions/resources. The CRM workflow defines its outputs and transition criterion. Continue from that foundation into solution design and compilation below; revisit the inquiry when later evidence changes the problem or approach.
 
-Develop purpose, complete vision, intended users, features, scope exclusions, friction, boundaries, infrastructure and resources together. Follow reuse and ambiguity rules in [context](references/context.md).
+Read [research and decisions](references/research.md) when investigating or comparing responses. Read [context and profiles](references/context.md) for reuse and ambiguity rules.
 
 ## Define resources and access
 
@@ -42,7 +42,7 @@ Take a project-manager approach: jointly refine dependencies, milestones, the cr
 
 Read [handoff and readiness](references/handoff.md) before compiling or claiming readiness. Maintain one entry point with supporting artifacts proportional to complexity. Honor requested destinations and repository conventions; otherwise use a clearly named blueprints/<project>/ directory in the workspace. Never overwrite an unrelated blueprint. Project outputs belong outside the installed skill.
 
-For changes discovered during implementation, trace affected decisions, resources, journeys, milestones and acceptance criteria. Reconcile those portions, preserve unrelated confirmed work and retain consequential rationale.
+For changes discovered during design or authorized implementation, reopen the affected CRM problem/context questions and trace consequences through decisions, resources, journeys, milestones and acceptance criteria. Reconcile those portions, preserve unrelated confirmed work and retain consequential rationale.
 
 ## Complete the work
 
